@@ -1,7 +1,9 @@
+import LandingPage from "@/page/LandingPage"
+
 export default function Home() {
   return (
-    <main>
-      Hello World
-    </main>
+    <>
+      <LandingPage />
+    </>
   )
 }

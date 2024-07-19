@@ -1,0 +1,28 @@
+.header {
+    background-color: #012531;
+}
+
+.header_container {
+    background-color: #012531;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.header_container_image {
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+}
+
+.header_container_nav {
+    color: white;
+    display: flex;
+    gap: 1.9rem;
+    font-size: 12px;
+}
+
+.header_container_nav a {
+    padding: 1.3rem 0;
+}
