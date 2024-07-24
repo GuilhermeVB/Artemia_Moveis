@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className={mainFontFamily.className}>
+      <head>
+        <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon" />
+      </head>
       <body>{children}</body>
     </html>
   );
