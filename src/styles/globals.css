@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'Header.module.css';
+@import 'Banner.module.css';
 @import 'Button.module.css';
+@import 'Header.module.css';
 
 * {
     box-sizing: border-box;

@@ -1,15 +1,10 @@
 .header_container {
-    background-color: #012531; /* Remover ao adicionar foto de fundo e adicionar ao entrar em um tópico */
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.6rem 2.6rem;
     width: 100%;
-}
-
-.header_container_image {
-    width: 12.5rem;
 }
 
 .header_container_nav {
