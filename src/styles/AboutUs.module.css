@@ -1,0 +1,7 @@
+.goals {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 3.125rem;
+    padding: 6.25rem 10rem;
+}

@@ -1,10 +1,10 @@
 .banner_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #012531;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 22rem 0;
 }
 
@@ -19,7 +19,6 @@
 .banner_content_text {
     color: #F6F1E9;
     font-size: 20px;
-    font-weight: 400;
     text-align: center;
     width: 28.125rem;
 }

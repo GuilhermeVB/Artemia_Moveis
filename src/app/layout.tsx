@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 
 const mainFontFamily = Poppins({
   weight: ['400', '500', '600', '700'],
+  style: ['normal', 'italic'],
   subsets: ['latin'],
 });
 

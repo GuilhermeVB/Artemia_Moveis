@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-import banner from '/public/assets/Banner.png';
-import logo from '/public/assets/Banner_Logo.png';
+import banner from '/public/assets/banner/banner.png';
+import logo from '/public/assets/banner/banner_Logo.png';
 
 import Button from '@/components/Button';
 

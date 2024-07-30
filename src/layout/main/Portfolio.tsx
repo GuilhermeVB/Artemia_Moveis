@@ -1,9 +1,9 @@
-import Card_1 from "/public/assets/Card_1.png";
-import Card_2 from "/public/assets/Card_2.png";
-import Card_3 from "/public/assets/Card_3.png";
-import Card_4 from "/public/assets/Card_4.png";
-import Card_5 from "/public/assets/Card_5.png";
-import Card_6 from "/public/assets/Card_6.png";
+import cardImage1 from "/public/assets/portfolio/card_1.png";
+import cardImage2 from "/public/assets/portfolio/card_2.png";
+import cardImage3 from "/public/assets/portfolio/card_3.png";
+import cardImage4 from "/public/assets/portfolio/card_4.png";
+import cardImage5 from "/public/assets/portfolio/card_6.png";
+import cardImage6 from "/public/assets/portfolio/card_5.png";
 
 import Card from "@/components/Card";
 
@@ -16,14 +16,14 @@ export default function Portfolio() {
             </div>
             <div className="portfolio_projects">
                 <div className="portfolio_projects_cards">
-                    <Card card={Card_1} />
-                    <Card card={Card_2} />
-                    <Card card={Card_3} />
+                    <Card card={cardImage1} />
+                    <Card card={cardImage2} />
+                    <Card card={cardImage3} />
                 </div>
                 <div className="portfolio_projects_cards">
-                    <Card card={Card_4} />
-                    <Card card={Card_5} />
-                    <Card card={Card_6} />
+                    <Card card={cardImage4} />
+                    <Card card={cardImage5} />
+                    <Card card={cardImage6} />
                 </div>
             </div>
         </section>

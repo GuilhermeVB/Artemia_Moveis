@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "/public/assets/Header_Logo.png";
+import logo from "/public/assets/header/header_Logo.png";
 
 import Button from "@/components/Button";
 
