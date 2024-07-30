@@ -15,13 +15,13 @@ export default function Header() {
             />
             <nav className="header_container_nav">
                 <Link href="#">
-                    PROJETOS
+                    Projetos
                 </Link>
                 <Link href="#">
-                    SOBRE NÓS
+                    Sobre Nós
                 </Link>
                 <Link href="#">
-                    FEEDBACK
+                    Feedback
                 </Link>
             </nav>
             <Button text='Faça seu Orçamento!' backgroundColor="#2FE076" borderRadius="0 1.3rem 0 1.3rem" color="#012531" />

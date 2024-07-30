@@ -5,6 +5,7 @@
 @import 'Banner.module.css';
 @import 'Button.module.css';
 @import 'Header.module.css';
+@import 'Portfolio.module.css';
 
 * {
     box-sizing: border-box;

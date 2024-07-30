@@ -7,7 +7,7 @@ import Button from '@/components/Button';
 
 export default function Banner() {
     return (
-        <div className="banner_container" style={{ backgroundImage: `url('${banner.src}')` }}>
+        <section className="banner_container" style={{ backgroundImage: `url('${banner.src}')` }}>
             <div className='banner_content'>
                 <Image
                     src={logo}
@@ -20,6 +20,6 @@ export default function Banner() {
                     <Button text='Sobre Nós' border='solid 1px #FFFFFF' borderRadius='1.3rem 0 1.3rem 0' color='#F6F1E9' />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
