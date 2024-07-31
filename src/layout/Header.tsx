@@ -11,7 +11,7 @@ export default function Header() {
             <Image
                 src={logo}
                 alt="Logo da Artêmia Móveis"
-                style={{width: '12.5rem', height: 'auto'}}
+                style={{ width: '12.5rem', height: '4.12rem' }}
             />
             <nav className="header_container_nav">
                 <Link href="#">

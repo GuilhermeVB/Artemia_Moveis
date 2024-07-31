@@ -2,6 +2,31 @@
     background-position: center;
     background-size: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 3.125rem;
-    padding: 6.25rem 10rem;
+    padding: 6.25rem 0;
+}
+
+.about {
+    background-color: #F6F1E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+    text-align: center;
+    padding: 7.15625rem 0;
+}
+
+.about_heading {
+    color: #012531;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about_paragraph {
+    color: #012531;
+    font-size: 16px;
+    width: 64rem;
 }
