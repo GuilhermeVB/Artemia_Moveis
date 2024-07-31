@@ -24,7 +24,12 @@ export default function Header() {
                     Feedback
                 </Link>
             </nav>
-            <Button text='Faça seu Orçamento!' backgroundColor="#2FE076" borderRadius="0 1.3rem 0 1.3rem" color="#012531" />
+            <Button
+                text='Faça seu Orçamento!'
+                backgroundColor="#2FE076"
+                borderRadius="0 1.3rem 0 1.3rem"
+                color="#012531"
+            />
         </header>
     )
 }

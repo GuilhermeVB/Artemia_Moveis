@@ -16,8 +16,18 @@ export default function Banner() {
                 />
                 <p className='banner_content_text'>Móveis planejados de qualidade em Feira de Santana</p>
                 <div className='banner_content_action'>
-                    <Button text='Faça seu Orçamento!' backgroundColor='#2FE076' borderRadius='0 1.3rem 0 1.3rem' color='#012531' />
-                    <Button text='Sobre Nós' border='solid 1px #FFFFFF' borderRadius='1.3rem 0 1.3rem 0' color='#F6F1E9' />
+                    <Button
+                        text='Faça seu Orçamento!'
+                        backgroundColor='#2FE076'
+                        borderRadius='0 1.3rem 0 1.3rem'
+                        color='#012531'
+                    />
+                    <Button
+                        text='Sobre Nós'
+                        border='solid 1px #FFFFFF'
+                        borderRadius='1.3rem 0 1.3rem 0'
+                        color='#F6F1E9'
+                    />
                 </div>
             </div>
         </section>

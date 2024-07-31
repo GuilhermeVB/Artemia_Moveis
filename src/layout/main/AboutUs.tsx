@@ -1,8 +1,13 @@
+import Image from 'next/image';
+
 import goalsBackground from '/public/assets/aboutus/goals_background.png';
+import motivationalSpeechFigure from '/public/assets/aboutus/motivational_speech_figure.png';
+import vector from '/public/assets/aboutus/vector.png';
 import goalImage1 from '/public/icons/goal_1.svg';
 import goalImage2 from '/public/icons/goal_2.svg';
 import goalImage3 from '/public/icons/goal_3.svg';
 
+import Button from '@/components/Button';
 import Goal from "@/components/Goal";
 
 export default function AboutUs() {
@@ -45,7 +50,43 @@ export default function AboutUs() {
                 </p>
             </article>
             <article className="motivational_speech">
-
+                <article className='motivational_speech_content'>
+                    <h2 className='motivational_speech_heading'>Realizando Sonhos Através De Móveis Sob Medida</h2>
+                    <div className='motivational_speech_paragraph'>
+                        <p>
+                            A Artemia Móveis é referência em móveis planejados, com mais de 550 projetos entregues,
+                            transformando sonhos em realidade. Nossa paixão incansável pela excelência se une ao olhar
+                            afiado para o design do casal de visionários Márcio e Natália, especialistas em criar móveis
+                            que encantam e atendem às necessidades de cada cliente.
+                        </p>
+                        <p>
+                            Ao escolher a Artemia, você está optando por mais do que simplesmente móveis – está escolhendo
+                            o resultado de anos de experiência e dedicação, combinados com um toque único de talento e criatividade.
+                            Deixe-se encantar pelo nosso trabalho e descubra como a Artemia Móveis Planejados pode transformar sua casa
+                            em um verdadeiro lar.
+                        </p>
+                    </div>
+                    <Button
+                        text='Faça seu Orçamento!'
+                        backgroundColor="#2FE076"
+                        borderRadius="0 1.3rem 0 1.3rem"
+                        color="#012531"
+                    />
+                </article>
+                <div className='motivational_speech_vector'>
+                    <Image
+                        src={vector}
+                        alt='Vetor'
+                        style={{ width: '13.5rem', height: '41.625rem' }}
+                    />
+                </div>
+                <figure className='motivational_speech_figure'>
+                    <Image
+                        src={motivationalSpeechFigure}
+                        alt='Márcio e Natália'
+                        style={{ width: '60rem', height: '41.625rem' }}
+                    />
+                </figure>
             </article>
         </section>
     )

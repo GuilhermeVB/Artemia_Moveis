@@ -2,7 +2,7 @@ interface ButtonStyles {
     backgroundColor?: string
     border?: string
     borderRadius: string
-    color?: string
+    color: string
     text: string
 }
 
