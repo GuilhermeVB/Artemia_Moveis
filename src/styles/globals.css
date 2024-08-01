@@ -6,6 +6,7 @@
 @import './stylus/Banner.module.css';
 @import './stylus/Button.module.css';
 @import './stylus/Feedback.module.css';
+@import './stylus/FeedbackBox.module.css';
 @import './stylus/Goal.module.css';
 @import './stylus/Header.module.css';
 @import './stylus/Portfolio.module.css';
