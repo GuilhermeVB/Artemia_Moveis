@@ -1,5 +1,6 @@
 import AboutUs from "./AboutUs";
 import Banner from "./Banner";
+import Feedback from "./Feedback";
 import Portfolio from "./Portfolio";
 
 export default function Main() {
@@ -8,6 +9,7 @@ export default function Main() {
             <Banner />
             <Portfolio />
             <AboutUs />
+            <Feedback />
         </main>
     )
 }

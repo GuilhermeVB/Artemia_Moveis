@@ -1,7 +1,6 @@
-import Banner from "@/layout/main/Banner"
 import Footer from "@/layout/Footer"
 import Header from "@/layout/Header"
-import Main from "@/layout/main/Main"
+import Main from "@/layout/docs/Main"
 
 export default function LandingPage() {
     return (

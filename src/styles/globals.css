@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'AboutUs.module.css';
-@import 'Banner.module.css';
-@import 'Button.module.css';
-@import 'Goal.module.css';
-@import 'Header.module.css';
-@import 'Portfolio.module.css';
+@import './stylus/AboutUs.module.css';
+@import './stylus/Banner.module.css';
+@import './stylus/Button.module.css';
+@import './stylus/Feedback.module.css';
+@import './stylus/Goal.module.css';
+@import './stylus/Header.module.css';
+@import './stylus/Portfolio.module.css';
 
 * {
     box-sizing: border-box;
