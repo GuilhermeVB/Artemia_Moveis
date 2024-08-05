@@ -1,6 +1,6 @@
-import Elipse1 from '/public/assets/feedback/Elipse_1.png';
-import Elipse2 from '/public/assets/feedback/Elipse_2.png';
-import Elipse3 from '/public/assets/feedback/Elipse_3.png';
+import Elipse1 from '/public/assets/feedback/elipse_1.png';
+import Elipse2 from '/public/assets/feedback/elipse_2.png';
+import Elipse3 from '/public/assets/feedback/elipse_3.png';
 
 import FeedbackBox from "@/components/FeedbackBox";
 
