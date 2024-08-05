@@ -73,18 +73,11 @@ export default function AboutUs() {
                         color="#012531"
                     />
                 </article>
-                <div className='motivational_speech_vector'>
-                    <Image
-                        src={vector}
-                        alt='Vetor'
-                        style={{ width: '13.5rem', height: '41.625rem' }}
-                    />
-                </div>
                 <figure className='motivational_speech_figure'>
                     <Image
                         src={motivationalSpeechFigure}
                         alt='Márcio e Natália'
-                        style={{ width: '60rem', height: '41.625rem' }}
+                        style={{ width: '66.25rem', height: '41.625rem' }}
                     />
                 </figure>
             </article>

@@ -34,6 +34,7 @@
 .motivational_speech {
     background-color: #012531;
     display: flex;
+    padding-left: 8.3125rem;
 }
 
 .motivational_speech_content {
@@ -42,7 +43,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 2.1875rem;
-    padding: 0 6.25rem 0 8.3125rem;
 }
 
 .motivational_speech_heading {
@@ -58,9 +58,4 @@
     color: #FFFFFF;
     font-weight: 500;
     text-align: justify;
-}
-
-.motivational_speech_vector {
-    position: absolute;
-    right: 52.75rem;
 }
