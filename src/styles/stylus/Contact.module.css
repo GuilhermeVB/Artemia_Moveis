@@ -1,0 +1,57 @@
+.contact_container {
+    background-color: #012531;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5.8125rem 0 6.6875rem;
+}
+
+.contact_query {
+    width: 56.5625rem;
+    height: 34.375rem;
+}
+
+.contact_query_content {
+    padding: 7.5rem 10.8125rem 6.625rem 13rem;
+}
+
+.contact_query_content_paragraph {
+    color: #AEA874;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact_query_content_heading {
+    color: #012531;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact_action {
+    background-color: #F6F1E9;
+    display: flex;
+    width: 41.6875rem;
+    height: 34.375rem;
+}
+
+.contact_action_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.0625rem;
+    margin: 0 7.96875rem;
+}
+
+.contact_action_content_heading {
+    color: #012531;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact_action_content_paragraph {
+    color: #012531;
+}
