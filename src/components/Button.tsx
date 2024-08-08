@@ -4,6 +4,7 @@ interface ButtonStyles {
     borderRadius: string
     color: string
     text: string
+    maxWidth?: boolean
 }
 
 export default function Button(props: ButtonStyles) {
@@ -14,7 +15,8 @@ export default function Button(props: ButtonStyles) {
                 backgroundColor: `${props.backgroundColor}`,
                 color: `${props.color}`,
                 border: `${props.border}`,
-                borderRadius: `${props.borderRadius}`
+                borderRadius: `${props.borderRadius}`,
+                width: `${props.maxWidth && '100%'}`
             }}>
             {props.text}
         </button>
