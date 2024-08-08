@@ -1,0 +1,73 @@
+.pre_footer {
+    background-color: #F6F1E9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.875rem 12.5rem;
+}
+
+.pre_footer_left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.pre_footer_left_icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pre_footer_left_icons figure {
+    background-color: #012531;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.pre_footer_right {
+    display: flex;
+    gap: 2.3125rem;
+}
+
+.pre_footer_right nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.pre_footer_right_fastnavigation {
+    width: 13.25rem;
+}
+
+.pre_footer_right_contact, .pre_footer_right_adress {
+    width: 14.5625rem;
+}
+
+.pre_footer_right_fastnavigation, .pre_footer_right_adress{
+    gap: .5rem;
+}
+
+.pre_footer_right nav h3 {
+    color: #012531;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pre_footer_right nav a {
+    font-size: 14px;
+}
+
+.pre_footer_right_contact a {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #012531;
+    display: flex;
+    justify-content: center;
+    color: #F6F1E9;
+    padding: 2.375rem 0;
+}
