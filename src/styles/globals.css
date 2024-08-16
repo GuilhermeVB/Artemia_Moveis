@@ -13,6 +13,8 @@
 @import './stylus/Header.module.css';
 @import './stylus/Portfolio.module.css';
 
+@import './config/Iphone.css';
+
 * {
     box-sizing: border-box;
 }

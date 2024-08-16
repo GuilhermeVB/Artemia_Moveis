@@ -12,7 +12,6 @@ export default function FeedbackBox(props: FeedbackProfile) {
                 className="profile"
                 src={props.source}
                 alt="Imagem de Perfil"
-                style={{width: '15.625rem', height: '15.625rem'}}
             />
             <figcaption className="comment">{props.comment}</figcaption>
         </figure>

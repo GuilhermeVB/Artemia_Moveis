@@ -8,14 +8,24 @@
     width: 100%;
 }
 
-.header_container_nav {
+.header_logo {
+    height: 4.122rem;
+    margin-left: 2.98rem;
+    margin-right: 3.02rem;
+}
+
+.header_nav {
     display: flex;
     gap: 1.75rem;
 }
 
-.header_container_nav a {
+.header_nav a {
     color: #F6F1E9;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.header_hamburguer {
+    display: none;
 }

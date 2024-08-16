@@ -8,9 +8,9 @@ export default function Card(props: CardImage) {
     return (
         <figure>
             <Image
+                className="card_image"
                 src={props.card}
                 alt="Imagem de Demonstração de Projeto"
-                style={{width: "450px", height:"438px"}}
             />
         </figure>
     )
