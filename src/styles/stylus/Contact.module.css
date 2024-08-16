@@ -1,7 +1,5 @@
 .contact_container {
     background-color: #012531;
-    background-position: right;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +7,8 @@
 }
 
 .contact_query {
+    background-position: right;
+    background-size: cover;
     width: 56.5625rem;
     height: 34.375rem;
 }
@@ -54,4 +54,8 @@
 
 .contact_action_content_paragraph {
     color: #012531;
+}
+
+.contact_action_content_button {
+    width: 100%;
 }

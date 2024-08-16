@@ -5,7 +5,7 @@ import contactImage from "/public/assets/contact/contact_image.png"
 export default function Contact() {
     return (
         <section className="contact_container">
-            <div className="contact_query" style={{backgroundImage: `url('${contactImage.src}')`}}>
+            <div className="contact_query" style={{ backgroundImage: `url('${contactImage.src}')` }}>
                 <div className="contact_query_content">
                     <p className="contact_query_content_paragraph">
                         Peça seu orçamento agora!
@@ -24,13 +24,15 @@ export default function Contact() {
                         Quer saber mais sobre nossos serviços? Clique no botão abaixo e receba um
                         orçamento personalizado de forma rápida e fácil. Estamos prontos para ajudar!
                     </p>
-                    <Button
-                        text='Faça seu Orçamento!'
-                        backgroundColor="#2FE076"
-                        borderRadius="0 1.3rem 0 1.3rem"
-                        color="#012531"
-                        maxWidth
-                    />
+                    <div className="contact_action_content_button">
+                        <Button
+                            text='Faça seu Orçamento!'
+                            backgroundColor="#2FE076"
+                            borderRadius="0 1.3rem 0 1.3rem"
+                            color="#012531"
+                            maxWidth
+                        />
+                    </div>
                 </div>
             </div>
         </section>

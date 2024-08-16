@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import goalsBackground from '/public/assets/aboutus/goals_background.png';
 import motivationalSpeechFigure from '/public/assets/aboutus/motivational_speech_figure.png';
-import vector from '/public/assets/aboutus/vector.png';
+import motivationalSpeechFigureMobile from '/public/assets/aboutus/motivational_speech_figure_mobile.png';
 import goalImage1 from '/public/icons/goal_1.svg';
 import goalImage2 from '/public/icons/goal_2.svg';
 import goalImage3 from '/public/icons/goal_3.svg';
@@ -75,9 +75,14 @@ export default function AboutUs() {
                 </article>
                 <figure className='motivational_speech_figure'>
                     <Image
+                        className='motivational_speech_figure_desktop'
                         src={motivationalSpeechFigure}
                         alt='Márcio e Natália'
-                        style={{ width: '66.25rem', height: '41.625rem' }}
+                    />
+                    <Image
+                        className='motivational_speech_figure_mobile'
+                        src={motivationalSpeechFigureMobile}
+                        alt='Márcio e Natália'
                     />
                 </figure>
             </article>

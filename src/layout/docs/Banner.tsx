@@ -10,9 +10,9 @@ export default function Banner() {
         <section className="banner_container" style={{ backgroundImage: `url('${banner.src}')` }}>
             <div className='banner_content'>
                 <Image
+                    className='banner_content_logo'
                     src={logo}
                     alt="Logo da Artêmia Móveis"
-                    style={{ width: '23rem', height: 'auto' }}
                 />
                 <p className='banner_content_text'>Móveis planejados de qualidade em Feira de Santana</p>
                 <div className='banner_content_action'>
