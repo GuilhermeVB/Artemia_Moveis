@@ -6,6 +6,7 @@ import cardImage5 from "/public/assets/portfolio/card_6.png";
 import cardImage6 from "/public/assets/portfolio/card_5.png";
 
 import Card from "@/components/Card";
+import PortfolioCarousel from "@/components/PortfolioCarousel";
 
 export default function Portfolio() {
     return (
@@ -16,14 +17,14 @@ export default function Portfolio() {
             </div>
             <div className="portfolio_projects">
                 <div className="portfolio_projects_cards">
-                    <Card card={cardImage1} />
-                    <Card card={cardImage2} />
-                    <Card card={cardImage3} />
+                    <PortfolioCarousel source={cardImage1} />
+                    <PortfolioCarousel source={cardImage2} />
+                    <PortfolioCarousel source={cardImage3} />
                 </div>
                 <div className="portfolio_projects_cards">
-                    <Card card={cardImage4} />
-                    <Card card={cardImage5} />
-                    <Card card={cardImage6} />
+                    <PortfolioCarousel source={cardImage4} />
+                    <PortfolioCarousel source={cardImage5} />
+                    <PortfolioCarousel source={cardImage6} />
                 </div>
             </div>
         </section>

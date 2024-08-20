@@ -15,7 +15,6 @@ export default function Footer() {
                         <Image
                             src={logoFooter}
                             alt="Logo da Artêmia Móveis"
-                            style={{ width: '10.8175rem', height: '6.0625rem' }}
                         />
                     </figure>
                     <div className="pre_footer_left_icons">
@@ -23,21 +22,18 @@ export default function Footer() {
                             <Image
                                 src={instagramIcon}
                                 alt="Ícone do Instagram"
-                                style={{ width: '.9375rem', height: '.9375rem' }}
                             />
                         </figure>
                         <figure>
                             <Image
                                 src={youtubeIcon}
                                 alt="Ícone do Linkedin"
-                                style={{ width: '.9375rem', height: '.9375rem' }}
                             />
                         </figure>
                         <figure>
                             <Image
                                 src={linkedinIcon}
                                 alt="Ícone do Youtube"
-                                style={{ width: '.9375rem', height: '.9375rem' }}
                             />
                         </figure>
                     </div>

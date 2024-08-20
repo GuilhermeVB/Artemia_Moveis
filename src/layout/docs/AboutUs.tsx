@@ -16,7 +16,6 @@ export default function AboutUs() {
             <article className="goals" style={{ backgroundImage: `url('${goalsBackground.src}')` }}>
                 <Goal
                     icon={goalImage1}
-                    alt='Ícone de Positivo'
                     title='Qualidade de Produto'
                     paragraph='Na Artemia Móveis, a qualidade é nossa prioridade. 
                     Nossos móveis planejados são duráveis e sofisticados, 
@@ -25,14 +24,12 @@ export default function AboutUs() {
                 />
                 <Goal
                     icon={goalImage2}
-                    alt='Ícone de Entrega'
                     title='Segurança de Entrega'
                     paragraph='Garantimos que seus móveis planejados cheguem com segurança e pontualidade, 
                     assegurando tranquilidade e satisfação a cada cliente.'
                 />
                 <Goal
                     icon={goalImage3}
-                    alt='Ícone de Etiqueta de Preço'
                     title='Preço Competitivo'
                     paragraph='Oferecemos móveis planejados de alta qualidade a preços acessíveis. 
                     Nosso compromisso é proporcionar excelente custo-benefício, unindo design e 

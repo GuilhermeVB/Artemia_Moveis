@@ -2,7 +2,6 @@ import Image from "next/image"
 
 interface GoalContent {
     icon: any
-    alt: string
     title: string
     paragraph: string
 }
@@ -10,11 +9,7 @@ interface GoalContent {
 export default function Goal(props: GoalContent) {
     return (
         <div className="goal">
-            <Image
-                src={props.icon}
-                alt={props.alt}
-                style={{ width: "50px", height: "50px" }}
-            />
+            <figure className="w-[3.125rem] h-[3.125rem]" style={{backgroundImage: `url('${props.icon.src}')`}}></figure>
             <h3 className="goal_heading">{props.title}</h3>
             <p className="goal_paragraph">{props.paragraph}</p>
         </div>
