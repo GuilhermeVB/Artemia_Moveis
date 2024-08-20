@@ -8,6 +8,10 @@ import Button from "@/components/Button";
 
 export default function Header() {
     return (
+        <>
+        
+        </>
+        /*
         <header className="header_container">
             <Image
                 className="header_logo"
@@ -38,5 +42,6 @@ export default function Header() {
                 style={{ width: '1.875rem', height: '1.875rem' }}
             />
         </header>
+        */
     )
 }
