@@ -25,7 +25,7 @@ export default function PortfolioCarousel(props: PortfolioSources) {
             opts={{
                 align: "start",
             }}
-            className="w-[28.125rem]"
+            className="w-full"
         >
             <CarouselContent>
                 {cardImages.map((value, index) => (
@@ -36,8 +36,8 @@ export default function PortfolioCarousel(props: PortfolioSources) {
                     </CarouselItem>
                 ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden" />
-            <CarouselNext className="hidden" />
+            <CarouselPrevious />
+            <CarouselNext />
         </Carousel>
     )
 }

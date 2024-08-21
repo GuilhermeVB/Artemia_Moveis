@@ -13,6 +13,7 @@ export default function Banner() {
                     className='banner_content_logo'
                     src={logo}
                     alt="Logo da Artêmia Móveis"
+                    priority
                 />
                 <p className='banner_content_text'>Móveis planejados de qualidade em Feira de Santana</p>
                 <div className='banner_content_action'>
