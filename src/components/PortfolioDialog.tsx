@@ -19,7 +19,7 @@ export default function PortfolioDialog(props: DialogSource) {
       <DialogTrigger>
         <Card card={props.source} />
       </DialogTrigger>
-      <DialogContent className="border-0 p-0 w-[28.125rem]">
+      <DialogContent className="bg-transparent border-0 p-0 max-w-[28.125rem]">
         <DialogTitle className="hidden" />
         <PortfolioCarousel source={props.source} />
         <DialogDescription className="hidden" />

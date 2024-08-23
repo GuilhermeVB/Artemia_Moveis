@@ -39,3 +39,7 @@
     display: flex;
     gap: 2.1875rem;
 }
+
+.card_image {
+    width: 28.125rem;
+}

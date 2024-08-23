@@ -15,9 +15,9 @@ interface PortfolioSources {
 export default function PortfolioCarousel(props: PortfolioSources) {
 
     let cardImages = [
-        <Card card={props.source} />,
-        <Card card={props.source} />,
-        <Card card={props.source} />
+        <Card card={props.source} fitCarrousel />,
+        <Card card={props.source} fitCarrousel />,
+        <Card card={props.source} fitCarrousel />
     ]
 
     return (
@@ -25,7 +25,7 @@ export default function PortfolioCarousel(props: PortfolioSources) {
             opts={{
                 align: "start",
             }}
-            className="w-full"
+            className="w-[full]"
         >
             <CarouselContent>
                 {cardImages.map((value, index) => (
