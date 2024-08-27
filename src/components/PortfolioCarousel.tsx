@@ -35,8 +35,8 @@ export default function PortfolioCarousel(props: PortfolioSources) {
             className="w-[full]"
         >
             <CarouselContent>
-                {cardImages.map((value: any, index: number) => (
-                    <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/1">
+                {cardImages.map((value: any) => (
+                    <CarouselItem key={value.key} className="md:basis-1/1 lg:basis-1/1">
                         <div>
                             {value}
                         </div>
