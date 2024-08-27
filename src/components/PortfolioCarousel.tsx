@@ -1,5 +1,8 @@
+"use client";
+
 import Card from "./Card"
 
+import { useEffect, useState } from "react"
 import {
     Carousel,
     CarouselContent,
@@ -14,11 +17,15 @@ interface PortfolioSources {
 
 export default function PortfolioCarousel(props: PortfolioSources) {
 
-    let cardImages = [
-        <Card card={props.source} fitCarrousel />,
-        <Card card={props.source} fitCarrousel />,
-        <Card card={props.source} fitCarrousel />
-    ]
+    const [cardImages, setCardImages] = useState<any>([])
+
+    useEffect(() => {
+        setCardImages([
+            <Card card={props.source} fitCarrousel />,
+            <Card card={props.source} fitCarrousel />,
+            <Card card={props.source} fitCarrousel />
+        ])
+    }, [])
 
     return (
         <Carousel
@@ -28,7 +35,7 @@ export default function PortfolioCarousel(props: PortfolioSources) {
             className="w-[full]"
         >
             <CarouselContent>
-                {cardImages.map((value, index) => (
+                {cardImages.map((value: any, index: number) => (
                     <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/1">
                         <div>
                             {value}
