@@ -21,9 +21,9 @@ export default function PortfolioCarousel(props: PortfolioSources) {
 
     useEffect(() => {
         setCardImages([
-            <Card card={props.source} fitCarrousel />,
-            <Card card={props.source} fitCarrousel />,
-            <Card card={props.source} fitCarrousel />
+            <Card card={props.source} fitCarrousel key={1} />,
+            <Card card={props.source} fitCarrousel key={2} />,
+            <Card card={props.source} fitCarrousel key={3} />
         ])
     }, [])
 
@@ -36,8 +36,8 @@ export default function PortfolioCarousel(props: PortfolioSources) {
         >
             <CarouselContent>
                 {cardImages.map((value: any, index: number) => (
-                    <CarouselItem className="md:basis-1/1 lg:basis-1/1">
-                        <div key={index}>
+                    <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/1">
+                        <div>
                             {value}
                         </div>
                     </CarouselItem>
