@@ -55,7 +55,7 @@ export default function Footer() {
                         </Link>
                     </nav>
                     <nav className="pre_footer_right_contact">
-                        <h3 style={{marginBottom: '.5rem'}}>Contato</h3>
+                        <h3>Contato</h3>
                         <Link href="#">
                             +075-9-98364145
                         </Link>

@@ -49,6 +49,10 @@
     gap: .5rem;
 }
 
+.pre_footer_right_contact h3 {
+    margin-bottom: .5rem;
+}
+
 .pre_footer_right nav h3 {
     color: #012531;
     font-size: 20px;

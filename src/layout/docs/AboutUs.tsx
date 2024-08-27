@@ -71,11 +71,7 @@ export default function AboutUs() {
                     />
                 </article>
                 <figure className='motivational_speech_figure'>
-                    <Image
-                        className='motivational_speech_figure_desktop'
-                        src={motivationalSpeechFigure}
-                        alt='Márcio e Natália'
-                    />
+                    <figure className='motivational_speech_figure_desktop' style={{ backgroundImage: `url('${motivationalSpeechFigure.src}')` }} />
                     <Image
                         className='motivational_speech_figure_mobile'
                         src={motivationalSpeechFigureMobile}
