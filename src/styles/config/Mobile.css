@@ -1,4 +1,4 @@
-@media (max-width: 390px) {
+@media (max-width: 425px) {
 
     /* HEADER */
 
@@ -11,6 +11,7 @@
     .header_logo {
         margin: 0;
         width: 6.25rem;
+        height: auto;
     }
 
     .header_nav {
@@ -26,10 +27,6 @@
     }
 
     /* BANNER */
-
-    .banner_container {
-        padding: 16.0925rem 0;
-    }
 
     .banner_content_logo {
         width: 18.8125rem;

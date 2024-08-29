@@ -13,9 +13,9 @@ export default function Footer() {
                 <aside className="pre_footer_left">
                     <figure>
                         <Image
+                            className="pre_footer_left_logo"
                             src={logoFooter}
                             alt="Logo da Artêmia Móveis"
-                            style={{ width: '10.8175rem', height: '6.0625rem' }}
                         />
                     </figure>
                     <div className="pre_footer_left_icons">
@@ -23,21 +23,18 @@ export default function Footer() {
                             <Image
                                 src={instagramIcon}
                                 alt="Ícone do Instagram"
-                                style={{ width: '.9375rem', height: '.9375rem' }}
                             />
                         </figure>
                         <figure>
                             <Image
                                 src={youtubeIcon}
                                 alt="Ícone do Linkedin"
-                                style={{ width: '.9375rem', height: '.9375rem' }}
                             />
                         </figure>
                         <figure>
                             <Image
                                 src={linkedinIcon}
                                 alt="Ícone do Youtube"
-                                style={{ width: '.9375rem', height: '.9375rem' }}
                             />
                         </figure>
                     </div>
@@ -59,7 +56,7 @@ export default function Footer() {
                         </Link>
                     </nav>
                     <nav className="pre_footer_right_contact">
-                        <h3 style={{marginBottom: '.5rem'}}>Contato</h3>
+                        <h3>Contato</h3>
                         <Link href="#">
                             +075-9-98364145
                         </Link>

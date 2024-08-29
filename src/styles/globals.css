@@ -13,7 +13,9 @@
 @import './stylus/Header.module.css';
 @import './stylus/Portfolio.module.css';
 
-@import './config/Iphone.css';
+@import './config/Desktop1024.css';
+@import './config/Mobile.css';
+@import './config/Ipad.css';
 
 * {
     box-sizing: border-box;

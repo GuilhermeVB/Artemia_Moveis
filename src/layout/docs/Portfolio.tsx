@@ -5,7 +5,7 @@ import cardImage4 from "/public/assets/portfolio/card_4.png";
 import cardImage5 from "/public/assets/portfolio/card_6.png";
 import cardImage6 from "/public/assets/portfolio/card_5.png";
 
-import Card from "@/components/Card";
+import PortfolioDialog from "@/components/PortfolioDialog";
 
 export default function Portfolio() {
     return (
@@ -16,14 +16,14 @@ export default function Portfolio() {
             </div>
             <div className="portfolio_projects">
                 <div className="portfolio_projects_cards">
-                    <Card card={cardImage1} />
-                    <Card card={cardImage2} />
-                    <Card card={cardImage3} />
+                    <PortfolioDialog source={cardImage1} />
+                    <PortfolioDialog source={cardImage2} />
+                    <PortfolioDialog source={cardImage3} />
                 </div>
                 <div className="portfolio_projects_cards">
-                    <Card card={cardImage4} />
-                    <Card card={cardImage5} />
-                    <Card card={cardImage6} />
+                    <PortfolioDialog source={cardImage4} />
+                    <PortfolioDialog source={cardImage5} />
+                    <PortfolioDialog source={cardImage6} />
                 </div>
             </div>
         </section>
