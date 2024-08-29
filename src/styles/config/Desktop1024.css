@@ -30,6 +30,8 @@
 
     /* ABOUT US */
 
+    /* --- Goals--- */
+
     .goals {
         gap: 1.25rem;
         padding: 4.6875rem 0;
@@ -37,9 +39,10 @@
     }
 
     .goal {
+        justify-content: start;
         width: 18.75rem;
         min-height: 15.625rem;
-        padding: .625rem;
+        padding: 1.875rem .625rem;
     }
 
     .goal_heading {
@@ -49,6 +52,8 @@
     .goal_paragraph {
         font-size: 12px;
     }
+
+    /* --- About ---  */
 
     .about {
         padding: 5.6875rem 0;
@@ -62,6 +67,8 @@
         font-size: 12px;
         width: 54rem;
     }
+    
+    /* --- Motivational Speech ---  */
 
     .motivational_speech {
         padding-left: 2.5rem;

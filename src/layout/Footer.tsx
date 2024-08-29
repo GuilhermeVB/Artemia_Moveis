@@ -13,6 +13,7 @@ export default function Footer() {
                 <aside className="pre_footer_left">
                     <figure>
                         <Image
+                            className="pre_footer_left_logo"
                             src={logoFooter}
                             alt="Logo da Artêmia Móveis"
                         />

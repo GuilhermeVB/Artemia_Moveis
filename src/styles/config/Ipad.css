@@ -1,44 +1,13 @@
-@media (max-width: 425px) {
-
-    /* HEADER */
-
-    .header_container {
-        position: absolute;
-        margin-top: 2.9375rem;
-        padding: .3125rem 1.5625rem;
-    }
-
-    .header_logo {
-        margin: 0;
-        width: 6.25rem;
-        height: auto;
-    }
-
-    .header_nav {
-        display: none;
-    }
-
-    .header_container button {
-        display: none;
-    }
-
-    .header_hamburguer {
-        display: block;
-    }
+@media (min-width: 426px) and (max-width: 834px) {
 
     /* BANNER */
 
     .banner_content_logo {
-        width: 18.8125rem;
+        width: 18.860625rem;
     }
 
     .banner_content_text {
-        width: 21.25rem;
-    }
-
-    .banner_content_action {
-        gap: .625rem;
-        margin-top: .375rem;
+        width: auto;
     }
 
     /* PORTFOLIO */
@@ -61,31 +30,33 @@
     }
 
     .portfolio_projects {
+        flex-direction: row;
         gap: 2.1875rem;
     }
 
     .portfolio_projects_cards {
         flex-direction: column;
+        gap: 1.25rem;
     }
 
     .card_image {
         width: 18.75rem;
     }
 
-    /* ABOUT US */
+    /* ABOUT */
 
-    /* --- Goals--- */
+    /* --- Goals --- */
 
     .goals {
-        flex-direction: column;
-        gap: 1.25rem;
-        padding: 2.8125rem 0;
+        gap: .9375rem;
+        padding: 2.5rem 0;
     }
 
     .goal {
-        width: 18.75rem;
-        min-height: 15.625rem;
-        padding: 1.875rem .625rem;
+        justify-content: start;
+        width: 15.625rem;
+        min-height: 15.5rem;
+        padding: .6875rem .625rem;
     }
 
     .goal_heading {
@@ -96,10 +67,10 @@
         font-size: 12px;
     }
 
-    /* --- About ---  */
+    /* --- About --- */
 
     .about {
-        padding: 2.78125rem 1.25rem;
+        padding: 5.03125rem 1.25rem;
     }
 
     .about_heading {
@@ -108,22 +79,19 @@
 
     .about_paragraph {
         font-size: 12px;
-        text-align: justify;
         width: auto;
     }
 
-    /* --- Motivational Speech ---  */
+    /* --- Motivational Speech --- */
 
     .motivational_speech {
-        flex-direction: column-reverse;
-        gap: 0;
         padding: 0;
+        flex-direction: row-reverse;
     }
 
     .motivational_speech_content {
-        align-items: center;
         gap: .9375rem;
-        padding: 1.46875rem 1.25rem 4.15625rem;
+        padding: 0 1.25rem 0 2.5rem;
     }
 
     .motivational_speech_heading {
@@ -132,36 +100,36 @@
     }
 
     .motivational_speech_paragraph {
-        gap: 1.3rem;
+        gap: .9375rem;
         font-size: 12px;
+        text-align: start;
     }
 
     .motivational_speech_figure_desktop {
-        display: none;
+        background-position: center;
+        width: 26.0625rem;
+        height: 28.4375rem;
     }
 
-    .motivational_speech_figure_mobile {
-        display: block;
-    }
-
-    /* FEEDBACK */
+    /* CONTACT */
 
     .feedback_container {
-        padding: 3.5625rem 2.8125rem;
+        padding: 2.96875rem 0;
     }
 
     .feedback_heading {
         font-size: 24px;
-        text-align: center;
     }
 
     .feedback_comment_boxes {
-        flex-direction: column;
-        gap: 7.79375rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 9.375rem 1.5625rem;
     }
 
     .comment_box {
-        width: auto;
+        width: 18.75rem;
+        height: 15rem;
     }
 
     .profile {
@@ -172,48 +140,39 @@
     .comment {
         font-size: 14px;
         min-height: 15rem;
-        padding: 7.51875rem 2rem 0;
+        padding: 7.5rem 2rem .91875rem;
     }
 
     /* CONTACT */
 
-    /* --- Query --- */
-
     .contact_container {
-        flex-direction: column;
-        padding: 1.9375rem 0;
+        padding: 3rem 0;
     }
 
     .contact_query {
-        width: 21.1875rem;
-        height: 24.125rem;
-        border-radius: 10px 10px 0 0;
+        width: 23.4375rem;
+        height: 31.25rem;
     }
 
     .contact_query_content {
-        height: 100%;
-        padding: 7.4575rem .439375rem 6.1675rem 1.623125rem;
+        padding: 9.0625rem .756875rem 9.0625rem 1.5rem;
     }
 
     .contact_query_content_paragraph {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .contact_query_content_heading {
-        font-size: 32px;
+        font-size: 40px;
     }
 
-    /* --- Action --- */
-
     .contact_action {
-        width: 21.1875rem;
-        height: 12.875rem;
-        border-radius: 0 0 10px 10px;
+        width: 23.4375rem;
+        height: 31.25rem;
     }
 
     .contact_action_content {
-        gap: .968125rem;
-        margin: 0 1.139375rem;
+        margin: 0 1.25rem;
     }
 
     .contact_action_content_heading {
@@ -221,43 +180,56 @@
     }
 
     .contact_action_content_paragraph {
-        font-size: 10.94px;
-        text-align: justify;
+        font-size: 12px;
     }
 
     .contact_action_content_button {
-        width: 11.25rem;
+        font-size: 14px;
     }
 
     /* FOOTER */
 
     .pre_footer {
-        padding: 1.71875rem 6.77875rem;
+        padding: 4.875rem 3.125rem;
+        gap: 6.963125rem;
     }
 
     .pre_footer_left {
-        width: 100%;
+        gap: 3.5625rem;
     }
 
-    .pre_footer_left figure img {
-        margin: 0 auto;
+    .pre_footer_left_logo {
+        width: 10.8125rem;
     }
 
     .pre_footer_right {
-        display: none;
+        flex-wrap: wrap;
+        width: 28.09375rem
+    }
+
+    .pre_footer_right_fastnavigation {
+        flex: 1;
+    }
+    
+    .pre_footer_right_contact {
+        flex: 1;
+    }
+    
+    .pre_footer_right_adress {
+        width: 14.21875rem;
     }
 
     .footer {
-        padding: 1.28125rem 0;
         font-size: 12px;
+        padding: 1.34375rem;
     }
-
+    
     /* COMPONENTS */
 
     /* --- Button --- */
 
     .button {
-        width: 11.25rem;
         font-size: 12px;
+        width: 11.0625rem;
     }
 }
