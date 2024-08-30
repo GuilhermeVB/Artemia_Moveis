@@ -212,6 +212,7 @@
     }
 
     .contact_action_content {
+        align-items: center;
         gap: .968125rem;
         margin: 0 1.139375rem;
     }
