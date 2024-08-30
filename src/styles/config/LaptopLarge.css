@@ -1,0 +1,70 @@
+@media (min-width: 1025px) and (max-width: 1440px) {
+    
+    /* BANNER */
+
+    .banner_content_text {
+        width: auto;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio_container {
+        padding: 5.6875rem 0;
+    }
+
+    .card_image {
+        width: 25rem;
+    }
+
+    /* ABOUT US */
+
+    /* --- Goals--- */
+
+    .goal {
+        width: 25rem;
+    }
+
+    /* --- About ---  */
+
+    .about {
+        padding: 7.90625rem 0;
+    }
+
+    /* --- Motivational Speech ---  */
+
+    .motivational_speech {
+        padding-left: 5rem;
+    }
+
+    .motivational_speech_figure_desktop {
+        width: 41.25rem;
+
+    }
+
+    /* CONTACT */
+
+    .contact_container {
+        padding: 6.25rem 5.5625rem;
+    }
+
+    .contact_query {
+        width: 44.0625rem;
+    }
+
+    .contact_query_content {
+        padding-left: 10.126875rem;
+        padding-right: 6.4rem;
+    }
+
+    .contact_action {
+        width: 34.8125rem;
+    }
+
+    .contact_action_content {
+        margin: 0 4.53125rem;
+    }
+
+    /* FOOTER */
+
+
+}
