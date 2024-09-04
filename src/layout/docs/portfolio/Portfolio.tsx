@@ -5,7 +5,7 @@ import cardImage4 from "/public/assets/portfolio/card_4.png";
 import cardImage5 from "/public/assets/portfolio/card_6.png";
 import cardImage6 from "/public/assets/portfolio/card_5.png";
 
-import PortfolioDialog from "@/components/PortfolioDialog";
+import PortfolioDialog from "@/components/carousel/PortfolioDialog";
 
 export default function Portfolio() {
     return (

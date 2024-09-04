@@ -83,7 +83,11 @@
     }
 
     .motivational_speech_figure_desktop {
-        width: 33.25rem;
+        display: none;
+    }
+
+    .motivational_speech_figure_laptop {
+        display: block;
         height: 28.4375rem;
     }
 

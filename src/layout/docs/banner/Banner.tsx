@@ -3,7 +3,7 @@ import Image from 'next/image';
 import banner from '/public/assets/banner/banner.png';
 import logo from '/public/assets/banner/banner_logo.png';
 
-import Button from '@/components/Button';
+import Button from '@/components/button/Button';
 
 export default function Banner() {
     return (

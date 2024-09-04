@@ -1,5 +1,5 @@
 @media (min-width: 1025px) and (max-width: 1440px) {
-    
+
     /* BANNER */
 
     .banner_content_text {
@@ -37,8 +37,12 @@
     }
 
     .motivational_speech_figure_desktop {
-        width: 41.25rem;
+        display: none;
+    }
 
+    .motivational_speech_figure_laptop_large {
+        display: block;
+        height: 41.625rem;
     }
 
     /* CONTACT */

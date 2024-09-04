@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import "@/styles/globals.css";
+import '@/styles/globals.scss'
 
 const mainFontFamily = Poppins({
   weight: ['400', '500', '600', '700'],

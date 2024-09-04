@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+import Button from "@/components/button/Button";
 
 import contactImage from "/public/assets/contact/contact_image.png"
 

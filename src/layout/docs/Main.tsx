@@ -1,8 +1,8 @@
-import AboutUs from "./AboutUs";
-import Banner from "./Banner";
-import Contact from "./Contact";
-import Feedback from "./Feedback";
-import Portfolio from "./Portfolio";
+import AboutUs from "./aboutus/AboutUs";
+import Banner from "./banner/Banner";
+import Contact from "./contact/Contact";
+import Feedback from "./feedback/Feedback";
+import Portfolio from "./portfolio/Portfolio";
 
 export default function Main() {
     return (

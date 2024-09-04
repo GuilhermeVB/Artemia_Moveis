@@ -106,8 +106,11 @@
     }
 
     .motivational_speech_figure_desktop {
-        background-position: center;
-        width: 26.0625rem;
+        display: none;
+    }
+
+    .motivational_speech_figure_ipad {
+        display: block;
         height: 28.4375rem;
     }
 

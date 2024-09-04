@@ -2,13 +2,16 @@ import Image from 'next/image';
 
 import goalsBackground from '/public/assets/aboutus/goals_background.png';
 import motivationalSpeechFigure from '/public/assets/aboutus/motivational_speech_figure.png';
+import motivationalSpeechFigureIpad from '/public/assets/aboutus/motivational_speech_figure_ipad.png';
+import motivationalSpeechFigureLaptop from '/public/assets/aboutus/motivational_speech_figure_laptop.png';
+import motivationalSpeechFigureLaptopLarge from '/public/assets/aboutus/motivational_speech_figure_laptop_large.png';
 import motivationalSpeechFigureMobile from '/public/assets/aboutus/motivational_speech_figure_mobile.png';
 import goalImage1 from '/public/icons/goal_1.svg';
 import goalImage2 from '/public/icons/goal_2.svg';
 import goalImage3 from '/public/icons/goal_3.svg';
 
-import Button from '@/components/Button';
-import Goal from "@/components/Goal";
+import Button from '@/components/button/Button';
+import Goal from "@/components/goal/Goal";
 
 export default function AboutUs() {
     return (
@@ -72,6 +75,21 @@ export default function AboutUs() {
                 </article>
                 <figure className='motivational_speech_figure'>
                     <figure className='motivational_speech_figure_desktop' style={{ backgroundImage: `url('${motivationalSpeechFigure.src}')` }} />
+                    <Image
+                        className='motivational_speech_figure_ipad'
+                        src={motivationalSpeechFigureIpad}
+                        alt='Márcio e Natália'
+                    />
+                    <Image
+                        className='motivational_speech_figure_laptop'
+                        src={motivationalSpeechFigureLaptop}
+                        alt='Márcio e Natália'
+                    />
+                    <Image
+                        className='motivational_speech_figure_laptop_large'
+                        src={motivationalSpeechFigureLaptopLarge}
+                        alt='Márcio e Natália'
+                    />
                     <Image
                         className='motivational_speech_figure_mobile'
                         src={motivationalSpeechFigureMobile}
