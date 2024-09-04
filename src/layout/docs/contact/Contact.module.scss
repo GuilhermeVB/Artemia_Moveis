@@ -1,5 +1,5 @@
 .contact_container {
-    background-color: #012531;
+    background-color: $primary_color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,20 +18,20 @@
 }
 
 .contact_query_content_paragraph {
-    color: #AEA874;
+    color: $tertiary_color;
     font-size: 24px;
     font-weight: 700;
 }
 
 .contact_query_content_heading {
-    color: #012531;
+    color: $primary_color;
     font-size: 64px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .contact_action {
-    background-color: #F6F1E9;
+    background-color: $secondary_color;
     display: flex;
     width: 41.6875rem;
     height: 34.375rem;
@@ -47,13 +47,13 @@
 }
 
 .contact_action_content_heading {
-    color: #012531;
+    color: $primary_color;
     font-size: 24px;
     font-weight: 600;
 }
 
 .contact_action_content_paragraph {
-    color: #012531;
+    color: $primary_color;
 }
 
 .contact_action_content_button {

@@ -1,5 +1,5 @@
 .banner_container {
-    background-color: #012531;
+    background-color: $primary_color;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -17,7 +17,7 @@
 }
 
 .banner_content_text {
-    color: #F6F1E9;
+    color: $secondary_color;
     font-size: 20px;
     text-align: center;
     width: 28.125rem;

@@ -1,5 +1,5 @@
 .portfolio_container {
-    background-color: #F6F1E9;
+    background-color: $secondary_color;
     display: flex;
     flex-direction: column;
     gap: 3.6875rem;
@@ -14,14 +14,14 @@
 }
 
 .portfolio_writing_paragraph {
-    color: #AEA874;
+    color: $tertiary_color;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .portfolio_writing_heading {
-    color: #000;
+    color: $dark_color;
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;

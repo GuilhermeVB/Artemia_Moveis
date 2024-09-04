@@ -26,10 +26,8 @@ export default function Contact() {
                     </p>
                     <div className="contact_action_content_button">
                         <Button
+                            class='main_button'
                             text='Faça seu Orçamento!'
-                            backgroundColor="#2FE076"
-                            borderRadius="0 1.3rem 0 1.3rem"
-                            color="#012531"
                             maxWidth
                         />
                     </div>

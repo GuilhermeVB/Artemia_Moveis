@@ -67,10 +67,8 @@ export default function AboutUs() {
                         </p>
                     </div>
                     <Button
+                        class='main_button'
                         text='Faça seu Orçamento!'
-                        backgroundColor="#2FE076"
-                        borderRadius="0 1.3rem 0 1.3rem"
-                        color="#012531"
                     />
                 </article>
                 <figure className='motivational_speech_figure'>

@@ -1,5 +1,5 @@
 .goal {
-    background-color: #012531;
+    background-color: $primary_color;
     opacity: 0.8;
     display: flex;
     flex-direction: column;
@@ -14,12 +14,12 @@
 }
 
 .goal_heading {
-    color: #F6F1E9;
+    color: $secondary_color;
     font-size: 24px;
     font-weight: 500;
 }
 
 .goal_paragraph {
-    color: #F6F1E9;
+    color: $secondary_color;
     font-style: italic;
 }   

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './shared.scss';
+
 @import '../components/button/Button.module.scss';
 @import '../components/feedbackbox/FeedbackBox.module.scss';
 @import '../components/goal/Goal.module.scss';
@@ -11,13 +13,13 @@
 @import '../layout/docs/contact/Contact.module.scss';
 @import '../layout/docs/feedback/Feedback.module.scss';
 @import '../layout/docs/portfolio/Portfolio.module.scss';
-
 @import '../layout/footer/Footer.module.scss';
 
 @import './config/Ipad.scss';
 @import './config/Laptop.scss';
 @import './config/LaptopLarge.scss';
 @import './config/Mobile.scss';
+
 
 
 * {

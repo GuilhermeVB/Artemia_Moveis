@@ -1,5 +1,5 @@
 .feedback_container {
-    background-color: #F6F1E9;
+    background-color: $secondary_color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@
 }
 
 .feedback_heading {
-    color: #012531;
+    color: $primary_color;
     font-size: 40px;
     font-weight: 500;
 }
