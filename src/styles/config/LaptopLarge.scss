@@ -48,27 +48,40 @@
     /* CONTACT */
 
     .contact_container {
-        padding: 6.25rem 5.5625rem;
+        height: 40.3125rem;
+        margin-top: 6rem;
+        padding-left: 6.9375rem;
+
+        .contact_content {
+            gap: .9375rem;
+            width: 26.71875rem;
+            padding: 8.53125rem 0 11.90625rem;
+
+            .contact_content_company {
+                font-size: 18px;
+                letter-spacing: 9.5px;
+            }
+
+            .contact_content_heading {
+                font-size: 48px;
+            }
+
+            .contact_content_paragraph {
+                font-size: 12px;
+                width: 19.3125rem;
+            }
+
+            button {
+                font-size: 10.5px;
+                width: 9.140625rem;
+                height: 1.875rem;
+            }
+        }
+
+        .contact_figure {
+            top: -3.5625rem;
+            width: 52.078125rem;
+            height: 41.53125rem;
+        }
     }
-
-    .contact_query {
-        width: 44.0625rem;
-    }
-
-    .contact_query_content {
-        padding-left: 10.126875rem;
-        padding-right: 6.4rem;
-    }
-
-    .contact_action {
-        width: 34.8125rem;
-    }
-
-    .contact_action_content {
-        margin: 0 4.53125rem;
-    }
-
-    /* FOOTER */
-
-
 }

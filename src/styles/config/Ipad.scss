@@ -114,7 +114,7 @@
         height: 28.4375rem;
     }
 
-    /* CONTACT */
+    /* FEEDBACK */
 
     .feedback_container {
         padding: 2.96875rem 0;
@@ -162,45 +162,42 @@
     /* CONTACT */
 
     .contact_container {
-        padding: 3rem 0;
-    }
+        height: 28.666875rem;
+        margin-top: 4.266875rem;
+        padding-left: 4.933125rem;
 
-    .contact_query {
-        width: 23.4375rem;
-        height: 31.25rem;
-    }
+        .contact_content {
+            gap: .666875rem;
+            width: 19rem;
+            padding: 6.066875rem 0 8.454375rem;
 
-    .contact_query_content {
-        padding: 9.0625rem .756875rem 9.0625rem 1.5rem;
-    }
+            .contact_content_company {
+                font-size: 12.8px;
+                letter-spacing: 6.5px;
+            }
 
-    .contact_query_content_paragraph {
-        font-size: 20px;
-    }
+            .contact_content_heading {
+                font-size: 34.13px;
+            }
 
-    .contact_query_content_heading {
-        font-size: 40px;
-    }
+            .contact_content_paragraph {
+                font-size: 8.53px;
+                width: 13.733125rem;
+            }
 
-    .contact_action {
-        width: 23.4375rem;
-        height: 31.25rem;
-    }
+            button {
+                font-size: 7.47px;
+                width: 6.5rem;
+                height: 1.333125rem;
+                border-radius: 0 .6rem 0 .6rem;
+            }
+        }
 
-    .contact_action_content {
-        margin: 0 1.25rem;
-    }
-
-    .contact_action_content_heading {
-        font-size: 20px;
-    }
-
-    .contact_action_content_paragraph {
-        font-size: 12px;
-    }
-
-    .contact_action_content_button {
-        font-size: 14px;
+        .contact_figure {
+            top: -2.56625rem;
+            width: 25.158125rem;
+            height: 29.533125rem;
+        }
     }
 
     /* FOOTER */

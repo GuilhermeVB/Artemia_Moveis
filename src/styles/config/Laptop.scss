@@ -124,39 +124,42 @@
     /* CONTACT */
 
     .contact_container {
-        padding: 6.25rem 5.0625rem;
-    }
+        height: 28.666875rem;
+        margin-top: 4.266875rem;
+        padding-left: 4.933125rem;
 
-    .contact_query {
-        width: 30.1875rem;
-    }
+        .contact_content {
+            gap: .6875rem;
+            width: 19rem;
+            padding: 6.066875rem 0 8.454375rem;
 
-    .contact_query_content {
-        padding: 10.625rem 5rem 10.625rem 2.3125rem;
-    }
+            .contact_content_company {
+                font-size: 12.8px;
+                letter-spacing: 6.5px;
+            }
 
-    .contact_query_content_paragraph {
-        font-size: 20px;
-    }
+            .contact_content_heading {
+                font-size: 34.13px;
+            }
 
-    .contact_query_content_heading {
-        font-size: 40px;
-    }
+            .contact_content_paragraph {
+                font-size: 8.53px;
+                width: 13.733125rem;
+            }
 
-    .contact_action {
-        width: 23.25rem;
-    }
+            button {
+                font-size: 7.47px;
+                width: 6.5rem;
+                height: 1.333125rem;
+                border-radius: 0 .6rem 0 .6rem;
+            }
+        }
 
-    .contact_action_content {
-        margin: 0 1.25rem;
-    }
-
-    .contact_action_content_heading {
-        font-size: 20px;
-    }
-
-    .contact_action_content_paragraph {
-        font-size: 12px;
+        .contact_figure {
+            top: -2.56625rem;
+            width: 37.033125rem;
+            height: 29.533125rem;
+        }
     }
 
     /* FOOTER */
