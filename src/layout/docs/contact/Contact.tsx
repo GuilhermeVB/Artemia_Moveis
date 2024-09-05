@@ -1,38 +1,24 @@
-import Button from "@/components/button/Button";
+import Image from 'next/image';
+import contactFigure from '/public/assets/contact/contact_image.png'
 
-import contactImage from "/public/assets/contact/contact_image.png"
+import Button from "@/components/button/Button";
 
 export default function Contact() {
     return (
         <section className="contact_container">
-            <div className="contact_query" style={{ backgroundImage: `url('${contactImage.src}')` }}>
-                <div className="contact_query_content">
-                    <p className="contact_query_content_paragraph">
-                        Peça seu orçamento agora!
-                    </p>
-                    <h1 className="contact_query_content_heading">
-                        Interessado em Nossos Serviços?
-                    </h1>
-                </div>
-            </div>
-            <div className="contact_action">
-                <div className="contact_action_content">
-                    <h3 className="contact_action_content_heading">
-                        Solicite um orçamento
-                    </h3>
-                    <p className="contact_action_content_paragraph">
-                        Quer saber mais sobre nossos serviços? Clique no botão abaixo e receba um
-                        orçamento personalizado de forma rápida e fácil. Estamos prontos para ajudar!
-                    </p>
-                    <div className="contact_action_content_button">
-                        <Button
-                            class='main_button'
-                            text='Faça seu Orçamento!'
-                            maxWidth
-                        />
-                    </div>
-                </div>
-            </div>
+            <article className="contact_content">
+                <h3 className='contact_content_company'>Artêmia Móveis</h3>
+                <h1 className="contact_content_heading">Venha Falar Conosco</h1>
+                <p className="contact_content_paragraph">
+                    Quer saber mais sobre nossos serviços? Clique no botão abaixo e receba um orçamento
+                    personalizado de forma rápida e fácil. Estamos prontos para ajudar!
+                </p>
+                <Button
+                    class='main_button'
+                    text='Faça seu Orçamento!'
+                />
+            </article>
+            <figure className='contact_figure' style={{ backgroundImage: `url('${contactFigure.src}')` }} />
         </section>
     )
 }

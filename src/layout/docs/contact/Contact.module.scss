@@ -1,61 +1,42 @@
 .contact_container {
+    display: flex;
+    justify-content: space-between;
     background-color: $primary_color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5.8125rem 0 6.6875rem;
+    margin-top: 6.375rem;
+    padding-left: 9.25rem;
 }
 
-.contact_query {
-    background-position: right;
-    background-size: cover;
-    width: 56.5625rem;
-    height: 34.375rem;
-}
-
-.contact_query_content {
-    padding: 7.5rem 10.8125rem 6.625rem 13rem;
-}
-
-.contact_query_content_paragraph {
-    color: $tertiary_color;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.contact_query_content_heading {
-    color: $primary_color;
-    font-size: 64px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.contact_action {
-    background-color: $secondary_color;
-    display: flex;
-    width: 41.6875rem;
-    height: 34.375rem;
-}
-
-.contact_action_content {
+.contact_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    gap: 1.0625rem;
-    margin: 0 7.96875rem;
+    gap: 1.25rem;
+    width: 35.625rem;
+    padding: 11.375rem 0 15.875rem;
 }
 
-.contact_action_content_heading {
-    color: $primary_color;
+.contact_content_company {
+    color: $secondary_color;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 12.5px;
 }
 
-.contact_action_content_paragraph {
-    color: $primary_color;
+.contact_content_heading {
+    color: $secondary_color;
+    font-size: 64px;
+    font-weight: 700;
 }
 
-.contact_action_content_button {
-    width: 100%;
+.contact_content_paragraph {
+    color: $secondary_color;
+    width: 25.75rem;
+}
+
+.contact_figure {
+    position: relative;
+    top: -3.1875rem;
+    width: 69.4375rem;
+    height: 55.375rem;
 }
