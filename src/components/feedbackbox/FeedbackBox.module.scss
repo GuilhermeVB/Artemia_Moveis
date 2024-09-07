@@ -6,11 +6,17 @@
     align-items: center;
     width: 25rem;
     height: 17.75rem;
+    border-radius: 100%;
 }
 
-.profile {
+.profile, .profile_hover {
     position: absolute;
+    border-radius: 100%;
     top: -7.25rem;
+}
+
+.profile_hover {
+    display: none;
 }
 
 .comment {

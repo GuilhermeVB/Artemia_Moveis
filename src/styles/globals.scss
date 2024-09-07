@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '../animations/Hovers.scss';
 @import './shared.scss';
 
 @import '../components/button/Button.module.scss';
+@import '../components/card/Card.module.scss';
 @import '../components/feedbackbox/FeedbackBox.module.scss';
 @import '../components/goal/Goal.module.scss';
 
@@ -19,6 +21,7 @@
 @import './config/Laptop.scss';
 @import './config/LaptopLarge.scss';
 @import './config/Mobile.scss';
+
 
 
 

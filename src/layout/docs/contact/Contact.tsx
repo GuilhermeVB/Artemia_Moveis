@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import contactFigure from '/public/assets/contact/contact_image.png'
-
 import Button from "@/components/button/Button";
 
 export default function Contact() {
@@ -18,7 +15,7 @@ export default function Contact() {
                     text='Faça seu Orçamento!'
                 />
             </article>
-            <figure className='contact_figure' style={{ backgroundImage: `url('${contactFigure.src}')` }} />
+            <figure className='contact_figure' />
         </section>
     )
 }

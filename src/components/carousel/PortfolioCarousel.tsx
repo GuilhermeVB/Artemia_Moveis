@@ -1,6 +1,6 @@
 "use client";
 
-import Card from "../Card"
+import Card from "../card/Card"
 
 import { useEffect, useState } from "react"
 import {
@@ -21,9 +21,9 @@ export default function PortfolioCarousel(props: PortfolioSources) {
 
     useEffect(() => {
         setCardImages([
-            <Card card={props.source} fitCarrousel key={1} />,
-            <Card card={props.source} fitCarrousel key={2} />,
-            <Card card={props.source} fitCarrousel key={3} />
+            <Card card={props.source} fitCarrousel cardHover key={1} />,
+            <Card card={props.source} fitCarrousel cardHover key={2} />,
+            <Card card={props.source} fitCarrousel cardHover key={3} />
         ])
     }, [])
 
