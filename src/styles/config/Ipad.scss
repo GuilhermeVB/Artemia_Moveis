@@ -1,4 +1,4 @@
-@media (min-width: 451px) and (max-width: 834px) {
+@media (min-width: 451px) and (max-width: 999px) {
 
     /* BANNER */
 
@@ -128,7 +128,7 @@
     .feedback_comment_boxes {
         flex-wrap: wrap;
         gap: 9.375rem 1.5625rem;
-        margin-top: 6.25rem;
+        margin: 6.25rem 1.5625rem 0;
     }
 
     .feedback_comment_boxes .comment_box:first-child {

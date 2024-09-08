@@ -1,6 +1,5 @@
 .comment_box {
     position: relative;
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +15,7 @@
 }
 
 .profile_hover {
-    display: none;
+    opacity: 0;
 }
 
 .comment {

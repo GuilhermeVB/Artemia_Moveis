@@ -1,11 +1,11 @@
-@media (min-width: 835px) {
+@media (min-width: 1000px) {
     .button:hover {
         font-size: 16px;
         transition: .5s;
     }
 
     .card_image:hover .card_hover {
-        display: block;
+        opacity: 1;
         transition: .5s;
     }
 
@@ -21,7 +21,7 @@
     }
 
     .comment_box:hover .profile_hover {
-        display: block;
+        opacity: 1;
         transition: .5s;
     }
 
