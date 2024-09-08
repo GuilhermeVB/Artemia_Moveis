@@ -1,0 +1,30 @@
+.banner_container {
+    background-color: $primary_color;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.125rem;
+}
+
+.banner_content_text {
+    color: $secondary_color;
+    font-size: 20px;
+    text-align: center;
+    width: 28.125rem;
+}
+
+.banner_content_action {
+    display: flex;
+    gap: 1.5625rem;
+    margin-top: .375rem;
+}

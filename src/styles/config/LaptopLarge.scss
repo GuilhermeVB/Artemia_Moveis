@@ -1,0 +1,99 @@
+@media (min-width: 1300px) and (max-width: 1623px) {
+
+    /* BANNER */
+
+    .banner_content_text {
+        width: auto;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio_container {
+        padding: 5.6875rem 0;
+    }
+
+    .card_image {
+        width: 25rem;
+        height: 24.333125rem;
+    }
+
+    /* ABOUT US */
+
+    /* --- Goals--- */
+
+    .goal {
+        width: 25rem;
+    }
+
+    .goals {
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    /* --- About ---  */
+
+    .about {
+        padding: 7.90625rem 0;
+    }
+
+    /* --- Motivational Speech ---  */
+
+    .motivational_speech {
+        padding-left: 5rem;
+    }
+
+    .motivational_speech_figure_desktop {
+        display: none;
+    }
+
+    .motivational_speech_figure_laptop_large {
+        display: block;
+        height: 41.625rem;
+    }
+
+    /* FEEDBACK */
+
+    .feedback_comment_boxes {
+        gap: 2rem;
+    }
+
+    /* CONTACT */
+
+    .contact_container {
+        height: 40.3125rem;
+        margin-top: 6rem;
+        padding-left: 6.9375rem;
+
+        .contact_content {
+            gap: .9375rem;
+            width: 26.71875rem;
+            padding: 8.53125rem 0 11.90625rem;
+
+            .contact_content_company {
+                font-size: 18px;
+                letter-spacing: 9.5px;
+            }
+
+            .contact_content_heading {
+                font-size: 48px;
+            }
+
+            .contact_content_paragraph {
+                font-size: 12px;
+                width: 19.3125rem;
+            }
+
+            button {
+                font-size: 10.5px;
+                width: 9.140625rem;
+                height: 1.875rem;
+            }
+        }
+
+        .contact_figure {
+            top: -3.5625rem;
+            width: 52.078125rem;
+            height: 41.53125rem;
+        }
+    }
+}

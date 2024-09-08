@@ -1,0 +1,41 @@
+.portfolio_container {
+    background-color: $secondary_color;
+    display: flex;
+    flex-direction: column;
+    gap: 3.6875rem;
+    padding: 7.125rem 0 5.6875rem;
+    text-align: center;
+}
+
+.portfolio_writing {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.portfolio_writing_paragraph {
+    color: $tertiary_color;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.portfolio_writing_heading {
+    color: $dark_color;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.portfolio_projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.6875rem;
+}
+
+.portfolio_projects_cards {
+    display: flex;
+    gap: 2.1875rem;
+}

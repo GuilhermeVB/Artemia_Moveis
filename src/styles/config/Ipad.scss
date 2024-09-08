@@ -1,0 +1,250 @@
+@media (min-width: 451px) and (max-width: 999px) {
+
+    /* BANNER */
+
+    .banner_content_logo {
+        width: 18.860625rem;
+    }
+
+    .banner_content_text {
+        width: auto;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio_container {
+        gap: 2.5rem;
+        padding: 1.875rem 0;
+    }
+
+    .portfolio_writing {
+        gap: .625rem;
+    }
+
+    .portfolio_writing_paragraph {
+        font-size: 14px;
+    }
+
+    .portfolio_writing_heading {
+        font-size: 24px;
+    }
+
+    .portfolio_projects {
+        flex-direction: row;
+        gap: 2.1875rem;
+    }
+
+    .portfolio_projects_cards {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .card_image {
+        width: 18.75rem;
+        height: 18.25rem;
+    }
+
+    /* ABOUT */
+
+    /* --- Goals --- */
+
+    .goals {
+        gap: .9375rem;
+        padding: 2.5rem 0;
+    }
+
+    .goal {
+        justify-content: start;
+        width: 15.625rem;
+        min-height: 15.5rem;
+        padding: .6875rem .625rem;
+    }
+
+    .goal_heading {
+        font-size: 20px;
+    }
+
+    .goal_paragraph {
+        font-size: 12px;
+    }
+
+    /* --- About --- */
+
+    .about {
+        padding: 5.03125rem 1.25rem;
+    }
+
+    .about_heading {
+        font-size: 24px;
+    }
+
+    .about_paragraph {
+        font-size: 12px;
+        width: auto;
+    }
+
+    /* --- Motivational Speech --- */
+
+    .motivational_speech {
+        padding: 0;
+        flex-direction: row-reverse;
+    }
+
+    .motivational_speech_content {
+        gap: .9375rem;
+        padding: 0 1.25rem 0 2.5rem;
+    }
+
+    .motivational_speech_heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .motivational_speech_paragraph {
+        gap: .9375rem;
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .motivational_speech_figure_desktop {
+        display: none;
+    }
+
+    .motivational_speech_figure_ipad {
+        display: block;
+        height: 28.4375rem;
+    }
+
+    /* FEEDBACK */
+
+    .feedback_container {
+        padding: 2.96875rem 0;
+    }
+
+    .feedback_heading {
+        font-size: 24px;
+    }
+
+    .feedback_comment_boxes {
+        flex-wrap: wrap;
+        gap: 9.375rem 1.5625rem;
+        margin: 6.25rem 1.5625rem 0;
+    }
+
+    .feedback_comment_boxes .comment_box:first-child {
+        margin-left: auto;
+    }
+
+    .feedback_comment_boxes .comment_box:nth-of-type(2) {
+        margin-right: auto;
+    }
+
+    .feedback_comment_boxes .comment_box:last-child {
+        margin: 0 auto;
+    }
+
+    .comment_box {
+        flex: none;
+        width: 18.75rem;
+        height: 15rem;
+    }
+
+    .profile {
+        top: -6.25rem;
+        width: 12.5rem;
+    }
+
+    .comment {
+        font-size: 14px;
+        min-height: 15rem;
+        padding: 7.5rem 2rem .91875rem;
+    }
+
+    /* CONTACT */
+
+    .contact_container {
+        height: 28.666875rem;
+        margin-top: 4.266875rem;
+        padding-left: 4.933125rem;
+
+        .contact_content {
+            gap: .666875rem;
+            width: 19rem;
+            padding: 6.066875rem 0 8.454375rem;
+
+            .contact_content_company {
+                font-size: 12.8px;
+                letter-spacing: 6.5px;
+            }
+
+            .contact_content_heading {
+                font-size: 34.13px;
+            }
+
+            .contact_content_paragraph {
+                font-size: 8.53px;
+                width: 13.733125rem;
+            }
+
+            button {
+                font-size: 7.47px;
+                width: 6.5rem;
+                height: 1.333125rem;
+                border-radius: 0 .6rem 0 .6rem;
+            }
+        }
+
+        .contact_figure {
+            top: -2.56625rem;
+            width: 25.158125rem;
+            height: 29.533125rem;
+        }
+    }
+
+    /* FOOTER */
+
+    .pre_footer {
+        padding: 4.875rem 3.125rem;
+        gap: 6.963125rem;
+    }
+
+    .pre_footer_left {
+        gap: 3.5625rem;
+    }
+
+    .pre_footer_left_logo {
+        width: 10.8125rem;
+    }
+
+    .pre_footer_right {
+        flex-wrap: wrap;
+        width: 28.09375rem
+    }
+
+    .pre_footer_right_fastnavigation {
+        flex: 1;
+    }
+    
+    .pre_footer_right_contact {
+        flex: 1;
+    }
+    
+    .pre_footer_right_adress {
+        width: 14.21875rem;
+        margin: 0 auto;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 1.34375rem;
+    }
+    
+    /* COMPONENTS */
+
+    /* --- Button --- */
+
+    .button {
+        font-size: 12px;
+        width: 11.0625rem;
+    }
+}

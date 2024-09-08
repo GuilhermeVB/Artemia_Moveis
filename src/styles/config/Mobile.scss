@@ -1,0 +1,221 @@
+@media (max-width: 450px) {
+
+    /* BANNER */
+
+    .banner_content_logo {
+        width: 18.8125rem;
+    }
+
+    .banner_content_text {
+        width: 21.25rem;
+    }
+
+    .banner_content_action {
+        gap: .625rem;
+        margin-top: .375rem;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio_container {
+        gap: 2.5rem;
+        padding: 1.875rem 0;
+    }
+
+    .portfolio_writing {
+        gap: .625rem;
+    }
+
+    .portfolio_writing_paragraph {
+        font-size: 14px;
+    }
+
+    .portfolio_writing_heading {
+        font-size: 24px;
+    }
+
+    .portfolio_projects {
+        gap: 2.1875rem;
+    }
+
+    .portfolio_projects_cards {
+        flex-direction: column;
+    }
+
+    .card_image {
+        width: 18.75rem;
+        height: 18.25rem;
+    }
+
+    /* ABOUT US */
+
+    /* --- Goals--- */
+
+    .goals {
+        flex-direction: column;
+        gap: 1.25rem;
+        padding: 2.8125rem 0;
+    }
+
+    .goal {
+        width: 18.75rem;
+        min-height: 15.625rem;
+        padding: 1.875rem .625rem;
+    }
+
+    .goal_heading {
+        font-size: 20px;
+    }
+
+    .goal_paragraph {
+        font-size: 12px;
+    }
+
+    /* --- About ---  */
+
+    .about {
+        padding: 2.78125rem 1.25rem;
+    }
+
+    .about_heading {
+        font-size: 24px;
+    }
+
+    .about_paragraph {
+        font-size: 12px;
+        text-align: justify;
+        width: auto;
+    }
+
+    /* --- Motivational Speech ---  */
+
+    .motivational_speech {
+        flex-direction: column-reverse;
+        gap: 0;
+        padding: 0;
+    }
+
+    .motivational_speech_content {
+        align-items: center;
+        gap: .9375rem;
+        padding: 1.46875rem 1.25rem 4.15625rem;
+    }
+
+    .motivational_speech_heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .motivational_speech_paragraph {
+        gap: 1.3rem;
+        font-size: 12px;
+    }
+
+    .motivational_speech_figure_desktop {
+        display: none;
+    }
+
+    .motivational_speech_figure_mobile {
+        display: block;
+    }
+
+    /* FEEDBACK */
+
+    .feedback_container {
+        padding: 3.5625rem 2.8125rem;
+    }
+
+    .feedback_heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .feedback_comment_boxes {
+        flex-direction: column;
+        gap: 7.79375rem;
+    }
+
+    .comment_box {
+        width: auto;
+    }
+
+    .profile {
+        top: -6.25rem;
+        width: 12.5rem;
+    }
+
+    .comment {
+        font-size: 14px;
+        min-height: 15rem;
+        padding: 7.51875rem 2rem 0;
+    }
+
+    /* CONTACT */
+
+    .contact_container {
+        flex-direction: column;
+        height: auto;
+        margin-top: 0;
+        padding-left: 0;
+
+        .contact_content {
+            align-items: center;
+            gap: .625rem;
+            width: auto;
+            padding: 1.875rem 3.96875rem;
+
+            .contact_content_company {
+                font-size: 14px;
+                letter-spacing: 7.5px;
+            }
+
+            .contact_content_heading {
+                font-size: 24px;
+            }
+
+            .contact_content_paragraph {
+                font-size: 12px;
+                text-align: center;
+                width: 15.125rem;
+            }
+        }
+
+        .contact_figure {
+            top: 0;
+            width: 100%;
+            height: 17.5rem;
+        }
+    }
+
+    /* FOOTER */
+
+    .pre_footer {
+        padding: 1.71875rem 6.77875rem;
+    }
+
+    .pre_footer_left {
+        width: 100%;
+    }
+
+    .pre_footer_left figure img {
+        margin: 0 auto;
+    }
+
+    .pre_footer_right {
+        display: none;
+    }
+
+    .footer {
+        padding: 1.28125rem 0;
+        font-size: 12px;
+    }
+
+    /* COMPONENTS */
+
+    /* --- Button --- */
+
+    .button {
+        width: 11.25rem;
+        font-size: 12px;
+    }
+}

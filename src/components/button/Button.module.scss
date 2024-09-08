@@ -1,0 +1,22 @@
+.button {
+    font-size: 14px;
+    font-weight: 500;
+    width: 12.5rem;
+    height: 2.5rem;
+}
+
+.main_button {
+    background-color: $button_color;
+    border-radius: 0 1.3rem 0 1.3rem;
+    color: $primary_color;
+}
+
+.alternative_button {
+    border: solid 1px $light_color;
+    border-radius: 1.3rem 0 1.3rem 0;
+    color: $secondary_color;
+}
+
+.max_width {
+    width: 100%;
+}

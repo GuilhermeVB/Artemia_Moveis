@@ -1,0 +1,44 @@
+.contact_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary_color;
+    margin-top: 6.375rem;
+    padding-left: 9.25rem;
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+    width: 35.625rem;
+    padding: 11.375rem 0 15.875rem;
+}
+
+.contact_content_company {
+    color: $secondary_color;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 12.5px;
+}
+
+.contact_content_heading {
+    color: $secondary_color;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.contact_content_paragraph {
+    color: $secondary_color;
+    width: 25.75rem;
+}
+
+.contact_figure {
+    background-image: url('../../../../public/assets/contact/contact_image.png');
+    background-size: cover;
+    position: relative;
+    top: -3.1875rem;
+    width: 69.4375rem;
+    height: 55.375rem;
+}
