@@ -1,3 +1,5 @@
+'use client'
+
 import Animations from "@/animations/Animations";
 import AboutUs from "@/layout/aboutus/AboutUs";
 import Banner from "@/layout/banner/Banner";
@@ -6,16 +8,34 @@ import Feedback from "@/layout/feedback/Feedback";
 import Footer from "@/layout/footer/Footer";
 import Portfolio from "@/layout/portfolio/Portfolio";
 
+import { useEffect, useState } from "react";
+
 export default function Home() {
+
+  const [bannerTime] = useState<number>(2);
+  const [bannerDuration, setBannerDuration] = useState<number>(bannerTime)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setBannerDuration(0)
+    }, 2500)
+  }, [bannerTime])
+
   return (
     <>
-      <Animations />
-      <Banner />
-      <Portfolio />
-      <AboutUs />
-      <Feedback />
-      <Contact />
-      <Footer />
+      <Banner bannerTime={bannerTime} />
+      {
+        bannerDuration == 0 && (
+          <div>
+            <Animations />
+            <Portfolio />
+            <AboutUs />
+            <Feedback />
+            <Contact />
+            <Footer />
+          </div>
+        )
+      }
     </>
   )
 }

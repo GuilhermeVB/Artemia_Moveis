@@ -2,6 +2,11 @@
 
     /* BANNER */
 
+    .banner_container_background_color {
+        background-color: $primary_color;
+        opacity: 0.9;
+    }
+
     .banner_content_logo {
         width: 18.8125rem;
     }
