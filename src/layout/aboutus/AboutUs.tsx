@@ -16,39 +16,43 @@ import Goal from "@/components/goal/Goal";
 export default function AboutUs() {
     return (
         <section>
-            <article className="goals" style={{ backgroundImage: `url('${goalsBackground.src}')` }}>
-                <Goal
-                    icon={goalImage1}
-                    title='Qualidade de Produto'
-                    paragraph='Na Artemia Móveis, a qualidade é nossa prioridade. 
+            <div className='container_animation_goals'>
+                <article className="goals" style={{ backgroundImage: `url('${goalsBackground.src}')` }}>
+                    <Goal
+                        icon={goalImage1}
+                        title='Qualidade de Produto'
+                        paragraph='Na Artemia Móveis, a qualidade é nossa prioridade. 
                     Nossos móveis planejados são duráveis e sofisticados, 
                     proporcionando funcionalidade e estilo para satisfazer 
                     plenamente nossos clientes.'
-                />
-                <Goal
-                    icon={goalImage2}
-                    title='Segurança de Entrega'
-                    paragraph='Garantimos que seus móveis planejados cheguem com segurança e pontualidade, 
+                    />
+                    <Goal
+                        icon={goalImage2}
+                        title='Segurança de Entrega'
+                        paragraph='Garantimos que seus móveis planejados cheguem com segurança e pontualidade, 
                     assegurando tranquilidade e satisfação a cada cliente.'
-                />
-                <Goal
-                    icon={goalImage3}
-                    title='Preço Competitivo'
-                    paragraph='Oferecemos móveis planejados de alta qualidade a preços acessíveis. 
+                    />
+                    <Goal
+                        icon={goalImage3}
+                        title='Preço Competitivo'
+                        paragraph='Oferecemos móveis planejados de alta qualidade a preços acessíveis. 
                     Nosso compromisso é proporcionar excelente custo-benefício, unindo design e 
                     funcionalidade a um valor justo.'
-                />
-            </article>
-            <article className="about">
-                <h2 className='about_heading'>Sobre a Empresa</h2>
-                <p className='about_paragraph'>
-                    A Artemia Móveis é referência em móveis planejados, oferecendo soluções personalizadas
-                    para transformar ambientes com elegância e funcionalidade. Com um compromisso inabalável
-                    com a qualidade, combinamos design inovador e materiais de alta durabilidade para atender
-                    às necessidades únicas de cada cliente. Nosso atendimento dedicado e especializado garante
-                    uma experiência excepcional desde o planejamento até a entrega final.
-                </p>
-            </article>
+                    />
+                </article>
+            </div>
+            <div className='container_animation_about'>
+                <article className="about">
+                    <h2 className='about_heading'>Sobre a Empresa</h2>
+                    <p className='about_paragraph'>
+                        A Artemia Móveis é referência em móveis planejados, oferecendo soluções personalizadas
+                        para transformar ambientes com elegância e funcionalidade. Com um compromisso inabalável
+                        com a qualidade, combinamos design inovador e materiais de alta durabilidade para atender
+                        às necessidades únicas de cada cliente. Nosso atendimento dedicado e especializado garante
+                        uma experiência excepcional desde o planejamento até a entrega final.
+                    </p>
+                </article>
+            </div>
             <article className="motivational_speech">
                 <article className='motivational_speech_content'>
                     <h2 className='motivational_speech_heading'>Realizando Sonhos Através De Móveis Sob Medida</h2>
