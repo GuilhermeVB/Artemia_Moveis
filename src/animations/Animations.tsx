@@ -13,13 +13,6 @@ export default function Animations() {
 
         mm.add("(min-width: 1900px)", () => {
 
-            /* BANNER */
-
-            gsap.fromTo(".banner_content",
-                { yPercent: 200 },
-                { duration: 1.5, ease: "back.out(1)", opacity: 1, yPercent: 0, }
-            )
-
             /* PORTFOLIO */
 
             gsap.to(".portfolio_writing", {
@@ -35,23 +28,23 @@ export default function Animations() {
             const dialogScroller = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".portfolio_projects",
-                    start: "15% 80%",
-                    end: "15% 80%",
+                    start: "10% 80%",
+                    end: "10% 80%",
                     toggleActions: "restart none reverse none",
                 }
             })
 
             dialogScroller.fromTo(".dialog_animation_1",
                 { yPercent: 50 },
-                { ease: "back.out(1)", opacity: 1, yPercent: 0 })
+                { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 })
                 .fromTo(".dialog_animation_2",
                     { yPercent: 50 },
-                    { ease: "back.out(1)", opacity: 1, yPercent: 0 },
-                    "-=0.4")
+                    { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 },
+                    "-=0.6")
                 .fromTo(".dialog_animation_3",
                     { yPercent: 50 },
-                    { ease: "back.out(1)", opacity: 1, yPercent: 0 },
-                    "-=0.4"
+                    { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 },
+                    "-=0.6"
                 )
 
             /* ABOUT US */
@@ -59,29 +52,29 @@ export default function Animations() {
             const goalScroller = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".container_animation_goals",
-                    start: "center 80%",
-                    end: "center 80%",
-                    toggleActions: "restart none reverse none",
+                    start: "40% 80%",
+                    end: "40% 80%",
+                    toggleActions: "restart none reverse none"
                 }
             })
 
             goalScroller.fromTo(".goal",
                 { yPercent: 50, opacity: 0 },
-                { ease: "back.out(1)", opacity: 0.8, yPercent: 0 }
+                { ease: "back.out(1)", opacity: 0.8, yPercent: 0, duration: .7 }
             )
 
             const aboutScroller = gsap.timeline({
                 scrollTrigger: {
                     trigger: ".container_animation_about",
-                    start: "25% 80%",
-                    end: "25% 80%",
+                    start: "20% 80%",
+                    end: "20% 80%",
                     toggleActions: "restart none reverse none",
                 }
             })
 
             aboutScroller.fromTo(".about",
                 { yPercent: 50 },
-                { ease: "back.out(1)", opacity: 1, yPercent: 0 }
+                { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
             )
 
             const motivationalScroller = gsap.timeline({
@@ -95,11 +88,11 @@ export default function Animations() {
 
             motivationalScroller.fromTo(".motivational_speech_content",
                 { xPercent: -50 },
-                { ease: "back.out(1)", opacity: 1, xPercent: 0 })
+                { ease: "back.out(1)", opacity: 1, xPercent: 0, duration: .7 })
                 .fromTo(".motivational_speech_figure",
                     { xPercent: 50 },
-                    { ease: "back.out(1)", opacity: 1, xPercent: 0 },
-                    "-=0.5"
+                    { ease: "back.out(1)", opacity: 1, xPercent: 0, duration: .7 },
+                    "-=0.7"
                 )
 
             /* FEEDBACK */
@@ -115,7 +108,7 @@ export default function Animations() {
 
             feedbackScroller.fromTo(".feedback_container",
                 { yPercent: 50 },
-                { ease: "back.out(1)", opacity: 1, yPercent: 0 }
+                { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
             )
 
             const contactScroller = gsap.timeline({
@@ -129,7 +122,7 @@ export default function Animations() {
 
             contactScroller.fromTo(".contact_content",
                 { yPercent: 50 },
-                { ease: "back.out(1)", opacity: 1, yPercent: 0 }
+                { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
             )
         })
 
