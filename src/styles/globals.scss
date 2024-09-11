@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@import '../animations/Hovers.scss';
+@import '@/animations/Hovers.scss';
 @import './shared.scss';
 
-@import '../components/button/Button.module.scss';
-@import '../components/card/Card.module.scss';
-@import '../components/feedbackbox/FeedbackBox.module.scss';
-@import '../components/goal/Goal.module.scss';
+@import '@/components/button/Button.module.scss';
+@import '@/components/card/Card.module.scss';
+@import '@/components/feedbackbox/FeedbackBox.module.scss';
+@import '@/components/goal/Goal.module.scss';
 
-@import '../layout/docs/aboutus/AboutUs.module.scss';
-@import '../layout/docs/banner/Banner.module.scss';
-@import '../layout/docs/contact/Contact.module.scss';
-@import '../layout/docs/feedback/Feedback.module.scss';
-@import '../layout/docs/portfolio/Portfolio.module.scss';
-@import '../layout/footer/Footer.module.scss';
+@import '@/layout/aboutus/AboutUs.module.scss';
+@import '@/layout/banner/Banner.module.scss';
+@import '@/layout/contact/Contact.module.scss';
+@import '@/layout/feedback/Feedback.module.scss';
+@import '@/layout/portfolio/Portfolio.module.scss';
+@import '@/layout/footer/Footer.module.scss';
 
 @import './config/Ipad.scss';
 @import './config/Laptop.scss';
