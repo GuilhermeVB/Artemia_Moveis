@@ -19,7 +19,7 @@ export default function Home() {
     setTimeout(() => {
       setBannerDuration(0)
     }, 2500)
-  }, [bannerTime])
+  }, [])
 
   return (
     <>

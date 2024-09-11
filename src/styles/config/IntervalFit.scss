@@ -1,0 +1,173 @@
+/* DESKTOP => LAPTOPLARGE */
+
+@media (min-width: 1501px) and (max-width: 1666px) {
+    .goal {
+        width: 27rem;
+    }
+
+    .motivational_speech {
+        padding-left: 5rem;
+    }
+
+    .motivational_speech_figure_desktop {
+        display: none;
+    }
+
+    .motivational_speech_figure_laptop_large {
+        display: block;
+        height: 41.625rem;
+    }
+
+    .contact_container {
+        padding-left: 8rem;
+    }
+}
+
+
+/* LAPTOPLARGE => LAPTOP */
+
+@media (min-width: 1300px) and (max-width: 1332px) {
+    .goals {
+        gap: 1.25rem;
+        padding: 4.6875rem 0;
+        border-top: .4rem solid #012531;
+    }
+
+    .goal {
+        justify-content: start;
+        min-height: 15.625rem;
+        padding: 1.875rem .625rem;
+    }
+
+    .goal_heading {
+        font-size: 20px;
+    }
+
+    .goal_paragraph {
+        font-size: 12px;
+    }
+
+    .motivational_speech {
+        padding-left: 2.5rem !important;
+    }
+
+    .motivational_speech_heading {
+        font-size: 30px;
+    }
+
+    .motivational_speech_paragraph {
+        font-size: 12px;
+    }
+
+    .motivational_speech_figure_laptop_large {
+        display: none !important;
+    }
+
+    .motivational_speech_figure_laptop {
+        display: block;
+        height: 28.4375rem;
+    }
+}
+
+/* LAPTOP => IPAD */
+
+@media (min-width: 1130px) and (max-width: 1299px) {
+    .contact_container {
+        height: 40.3125rem !important;
+        margin-top: 6rem !important;
+        padding-left: 6.9375rem !important;
+
+        .contact_content {
+            gap: .9375rem !important;
+            width: 26.71875rem !important;
+            padding: 8.53125rem 0 11.90625rem !important;
+
+            .contact_content_company {
+                font-size: 18px !important;
+                letter-spacing: 9.5px !important;
+            }
+
+            .contact_content_heading {
+                font-size: 48px !important;
+            }
+
+            .contact_content_paragraph {
+                font-size: 12px !important;
+                width: 19.3125rem !important;
+            }
+
+            button {
+                font-size: 10.5px !important;
+                width: 9.140625rem !important;
+                height: 1.875rem !important;
+            }
+        }
+
+        .contact_figure {
+            top: -3.5625rem !important;
+            width: 52.078125rem !important;
+            height: 41.53125rem !important;
+        }
+    }
+}
+
+/* IPAD => MOBILE */
+
+@media (min-width: 675px) and (max-width: 815px) {
+    .goals {
+        gap: .5rem !important;
+    }
+
+    .goal {
+        width: 13.5rem !important;
+        max-height: 15.5rem;
+    }
+}
+
+@media (min-width: 675px) and (max-width: 705px) {
+
+    .motivational_speech_heading {
+        font-size: 20px !important;
+    }
+
+    .motivational_speech_paragraph {
+        overflow-y: scroll;
+        font-size: 10px !important;
+        max-height: 14.875rem;
+    }
+
+    .motivational_speech_content button {
+        font-size: 10px;
+        width: 9.375rem;
+        height: 2.1875rem;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 999px) {
+    .contact_container {
+        margin-top: 4.266875rem !important;
+        padding-left: 4.933125rem !important;
+
+        .contact_content {
+            gap: .6875rem !important;
+        }
+
+        .contact_figure {
+            width: 37.033125rem !important;
+        }
+    }
+}
+
+@media (min-width: 675px) and (max-width: 714px) {
+    .pre_footer_right_adress {
+        margin: 0 !important;
+    }
+}
+
+/* MOBILE => IPAD */
+
+@media (max-width: 800px) {
+    .comment_box {
+        max-width: 18.75rem;
+    }
+}
