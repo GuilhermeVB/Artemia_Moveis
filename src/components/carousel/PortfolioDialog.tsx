@@ -11,12 +11,13 @@ import {
 
 interface DialogSource {
   source: any
+  order: number
 }
 
 export default function PortfolioDialog(props: DialogSource) {
   return (
     <Dialog>
-      <DialogTrigger className="round-[10px]">
+      <DialogTrigger className={`round-[10px] dialog_animation_${props.order}`}>
         <Card card={props.source} />
       </DialogTrigger>
       <DialogContent className="bg-transparent border-0 p-0 max-w-[28.125rem] round-[10px]">

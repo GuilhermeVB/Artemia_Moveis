@@ -16,14 +16,14 @@ export default function Portfolio() {
             </div>
             <div className="portfolio_projects">
                 <div className="portfolio_projects_cards">
-                    <PortfolioDialog source={cardImage1} />
-                    <PortfolioDialog source={cardImage2} />
-                    <PortfolioDialog source={cardImage3} />
+                    <PortfolioDialog source={cardImage1} order={1} />
+                    <PortfolioDialog source={cardImage2} order={2} />
+                    <PortfolioDialog source={cardImage3} order={3} />
                 </div>
                 <div className="portfolio_projects_cards">
-                    <PortfolioDialog source={cardImage4} />
-                    <PortfolioDialog source={cardImage5} />
-                    <PortfolioDialog source={cardImage6} />
+                    <PortfolioDialog source={cardImage4} order={1} />
+                    <PortfolioDialog source={cardImage5} order={2} />
+                    <PortfolioDialog source={cardImage6} order={3} />
                 </div>
             </div>
         </section>
