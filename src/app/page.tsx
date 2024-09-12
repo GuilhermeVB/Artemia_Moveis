@@ -1,6 +1,7 @@
 'use client'
 
 import Animations from "@/animations/Animations";
+import WhatsApp from "@/components/whatsappfloater/WhatsAppFloater";
 import AboutUs from "@/layout/aboutus/AboutUs";
 import Banner from "@/layout/banner/Banner";
 import Contact from "@/layout/contact/Contact";
@@ -19,7 +20,7 @@ export default function Home() {
     setTimeout(() => {
       setBannerDuration(0)
     }, 2500)
-  }, [bannerTime])
+  }, [])
 
   return (
     <>
@@ -33,6 +34,7 @@ export default function Home() {
             <Feedback />
             <Contact />
             <Footer />
+            <WhatsApp />
           </div>
         )
       }

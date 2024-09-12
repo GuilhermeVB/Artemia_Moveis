@@ -13,6 +13,12 @@ export default function Animations() {
 
         mm.add("(min-width: 1900px)", () => {
 
+            /* WHATSAPP */
+
+            gsap.to(".floating_whats_app",
+                { duration: 2, opacity: 1 }
+            )
+
             /* PORTFOLIO */
 
             gsap.to(".portfolio_writing", {

@@ -1,4 +1,4 @@
-@media (min-width: 451px) and (max-width: 999px) {
+@media (min-width: 675px) and (max-width: 999px) {
 
     /* BANNER */
 
@@ -70,6 +70,7 @@
     }
 
     .goal_paragraph {
+        overflow-y: scroll;
         font-size: 12px;
     }
 
@@ -106,9 +107,11 @@
     }
 
     .motivational_speech_paragraph {
+        overflow-y: scroll;
         gap: .9375rem;
         font-size: 12px;
         text-align: start;
+        max-height: 14.375rem;
     }
 
     .motivational_speech_figure_desktop {
@@ -154,7 +157,7 @@
         height: 15rem;
     }
 
-    .profile {
+    .profile, .profile_hover {
         top: -6.25rem;
         width: 12.5rem;
     }
@@ -229,11 +232,11 @@
     .pre_footer_right_fastnavigation {
         flex: 1;
     }
-    
+
     .pre_footer_right_contact {
         flex: 1;
     }
-    
+
     .pre_footer_right_adress {
         width: 14.21875rem;
         margin: 0 auto;
@@ -243,7 +246,7 @@
         font-size: 12px;
         padding: 1.34375rem;
     }
-    
+
     /* COMPONENTS */
 
     /* --- Button --- */

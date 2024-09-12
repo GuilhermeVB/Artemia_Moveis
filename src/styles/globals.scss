@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './hovers.scss';
 @import './shared.scss';
 
 @import '@/animations/Animations.module.scss';
@@ -11,6 +10,7 @@
 @import '@/components/card/Card.module.scss';
 @import '@/components/feedbackbox/FeedbackBox.module.scss';
 @import '@/components/goal/Goal.module.scss';
+@import '@/components/whatsappfloater/WhatsAppFloater.module.scss';
 
 @import '@/layout/aboutus/AboutUs.module.scss';
 @import '@/layout/banner/Banner.module.scss';
@@ -19,6 +19,7 @@
 @import '@/layout/portfolio/Portfolio.module.scss';
 @import '@/layout/footer/Footer.module.scss';
 
+@import './config/IntervalFit.scss';
 @import './config/Ipad.scss';
 @import './config/Laptop.scss';
 @import './config/LaptopLarge.scss';
