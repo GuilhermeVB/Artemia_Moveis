@@ -1,19 +1,22 @@
-@media (min-width: 0px) {
-
-    .banner_content,
-    .portfolio_writing,
-    .dialog_animation_1,
-    .dialog_animation_2,
-    .dialog_animation_3,
-    .about,
-    .motivational_speech_content,
-    .motivational_speech_figure,
-    .feedback_container,
-    .contact_content {
-        opacity: 0;
-    }
-
-    .motivational_speech_content {
-        z-index: 1;
-    }
+.banner_content,
+.portfolio_writing,
+.dialog_animation_1,
+.dialog_animation_2,
+.dialog_animation_3,
+.animation_goal,
+.about,
+.motivational_speech_content,
+.motivational_speech_figure,
+.feedback_container,
+.contact_content {
+    opacity: 0;
 }
+
+.motivational_speech {
+    overflow-x: scroll;
+}
+
+.motivational_speech_content {
+    z-index: 1;
+}
+
