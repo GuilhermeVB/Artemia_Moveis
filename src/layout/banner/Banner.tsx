@@ -18,7 +18,7 @@ export default function Banner(props: AnimationsConfig) {
 
         const mm = gsap.matchMedia();
 
-        mm.add("(min-width: 1900px)", () => {
+        mm.add("(min-width: 0px)", () => {
 
             let element: any; let style; let color
 

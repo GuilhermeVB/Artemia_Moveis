@@ -11,7 +11,7 @@ export default function Animations() {
         const mm = gsap.matchMedia();
         gsap.registerPlugin(ScrollTrigger);
 
-        mm.add("(min-width: 1900px)", () => {
+        mm.add("(min-width: 0px)", () => {
 
             /* WHATSAPP */
 
@@ -27,6 +27,7 @@ export default function Animations() {
                     start: "top 80%",
                     end: "top 80%",
                     toggleActions: "restart none reverse none",
+                    markers: true
                 },
                 opacity: 1
             })
@@ -37,6 +38,7 @@ export default function Animations() {
                     start: "10% 80%",
                     end: "10% 80%",
                     toggleActions: "restart none reverse none",
+                    markers: true
                 }
             })
 
@@ -60,7 +62,8 @@ export default function Animations() {
                     trigger: ".container_animation_goals",
                     start: "40% 80%",
                     end: "40% 80%",
-                    toggleActions: "restart none reverse none"
+                    toggleActions: "restart none reverse none",
+                    markers: true
                 }
             })
 
@@ -75,6 +78,7 @@ export default function Animations() {
                     start: "20% 80%",
                     end: "20% 80%",
                     toggleActions: "restart none reverse none",
+                    markers: true
                 }
             })
 
@@ -89,6 +93,7 @@ export default function Animations() {
                     start: "30% 80%",
                     end: "30% 80%",
                     toggleActions: "restart none reverse none",
+                    markers: true
                 }
             })
 
@@ -109,6 +114,7 @@ export default function Animations() {
                     start: "40% 80%",
                     end: "40% 80%",
                     toggleActions: "restart none reverse none",
+                    markers: true
                 }
             })
 
@@ -123,6 +129,7 @@ export default function Animations() {
                     start: "30% 80%",
                     end: "30% 80%",
                     toggleActions: "restart none reverse none",
+                    markers: true
                 }
             })
 
