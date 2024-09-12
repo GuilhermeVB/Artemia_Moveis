@@ -4,8 +4,9 @@ import { useState } from "react"
 
 interface ButtonStyles {
     class: string
-    text: string
     maxWidth?: boolean
+    smallHover?: boolean
+    text: string
 }
 
 export default function Button(props: ButtonStyles) {
@@ -24,7 +25,7 @@ export default function Button(props: ButtonStyles) {
             onMouseEnter={mouseOn}
             onMouseLeave={mouseOff}
             className={`button ${props.class} ${props.maxWidth && 'max_width'}`}
-            style={{fontSize: `${mouseStatus ? '16px': '14px'}`, transition: `${mouseStatus ? '.5s' : '.5s'}`}}
+            style={{fontSize: `${mouseStatus ? '16px': ''}`, transition: `${mouseStatus ? '.5s' : '.5s'}`}}
             >
             {props.text}
         </button>
