@@ -17,9 +17,11 @@ export default function Home() {
   const [bannerDuration, setBannerDuration] = useState<number>(bannerTime)
 
   useEffect(() => {
+
     setTimeout(() => {
       setBannerDuration(0)
     }, 2500)
+
   }, [])
 
   return (

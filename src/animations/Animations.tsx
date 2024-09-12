@@ -64,9 +64,9 @@ export default function Animations() {
                 }
             })
 
-            goalScroller.fromTo(".goal",
+            goalScroller.fromTo(".animation_goal",
                 { yPercent: 50, opacity: 0 },
-                { ease: "back.out(1)", opacity: 0.8, yPercent: 0, duration: .7 }
+                { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
             )
 
             const aboutScroller = gsap.timeline({
@@ -131,7 +131,6 @@ export default function Animations() {
                 { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
             )
         })
-
     })
 
     return <></>
