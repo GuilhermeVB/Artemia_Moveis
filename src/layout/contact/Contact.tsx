@@ -1,6 +1,23 @@
+'use client'
+
+import { useState } from "react";
+
+import map from '/public/assets/contact/contact_maps.png';
+
 import Button from "@/components/button/Button";
 
 export default function Contact() {
+    const [mouseStatus, setMouseStatus] = useState<boolean>(false)
+
+    function mouseOn() {
+        setMouseStatus(true)
+    }
+
+    function mouseOff() {
+        setMouseStatus(false)
+    }
+
+
     return (
         <section className="contact_container">
             <article className="contact_content">
@@ -15,7 +32,15 @@ export default function Contact() {
                     text='Faça seu Orçamento!'
                 />
             </article>
-            <figure className='contact_figure' />
+            <figure
+                onMouseEnter={mouseOn}
+                onMouseLeave={mouseOff}
+                className='contact_figure'
+                style={{
+                    backgroundImage: `${mouseStatus ? `url(${map.src})` : ''}`,
+                    transition: `${mouseStatus ? '.5s' : '.5s'}`
+                }}
+            />
         </section>
     )
 }
