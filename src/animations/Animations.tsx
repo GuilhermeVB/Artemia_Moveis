@@ -26,8 +26,7 @@ export default function Animations() {
                     trigger: ".portfolio_writing",
                     start: "top 80%",
                     end: "top 80%",
-                    toggleActions: "restart none reverse none",
-                    markers: true
+                    toggleActions: "restart none reverse none"
                 },
                 opacity: 1
             })
@@ -37,8 +36,7 @@ export default function Animations() {
                     trigger: ".portfolio_projects",
                     start: "10% 80%",
                     end: "10% 80%",
-                    toggleActions: "restart none reverse none",
-                    markers: true
+                    toggleActions: "restart none reverse none"
                 }
             })
 
@@ -62,8 +60,7 @@ export default function Animations() {
                     trigger: ".container_animation_goals",
                     start: "40% 80%",
                     end: "40% 80%",
-                    toggleActions: "restart none reverse none",
-                    markers: true
+                    toggleActions: "restart none reverse none"
                 }
             })
 
@@ -77,8 +74,7 @@ export default function Animations() {
                     trigger: ".container_animation_about",
                     start: "20% 80%",
                     end: "20% 80%",
-                    toggleActions: "restart none reverse none",
-                    markers: true
+                    toggleActions: "restart none reverse none"
                 }
             })
 
@@ -92,8 +88,7 @@ export default function Animations() {
                     trigger: ".motivational_speech",
                     start: "30% 80%",
                     end: "30% 80%",
-                    toggleActions: "restart none reverse none",
-                    markers: true
+                    toggleActions: "restart none reverse none"
                 }
             })
 
@@ -113,8 +108,7 @@ export default function Animations() {
                     trigger: ".container_animation_feedback",
                     start: "40% 80%",
                     end: "40% 80%",
-                    toggleActions: "restart none reverse none",
-                    markers: true
+                    toggleActions: "restart none reverse none"
                 }
             })
 
@@ -128,8 +122,7 @@ export default function Animations() {
                     trigger: ".contact_container",
                     start: "30% 80%",
                     end: "30% 80%",
-                    toggleActions: "restart none reverse none",
-                    markers: true
+                    toggleActions: "restart none reverse none"
                 }
             })
 
