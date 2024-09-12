@@ -16,26 +16,21 @@ export default function Banner(props: AnimationsConfig) {
 
     useGSAP(() => {
 
-        const mm = gsap.matchMedia();
+        let element: any; let style; let color
 
-        mm.add("(min-width: 0px)", () => {
+        element = document.querySelector('.banner_container')
+        style = window.getComputedStyle(element);
+        color = style.getPropertyValue('background-color')
 
-            let element: any; let style; let color
+        gsap.fromTo(".banner_container_background_color",
+            { opacity: 0 },
+            { duration: props.bannerTime, opacity: 0.9, backgroundColor: color }
+        )
 
-            element = document.querySelector('.banner_container')
-            style = window.getComputedStyle(element);
-            color = style.getPropertyValue('background-color')
-
-            gsap.fromTo(".banner_container_background_color",
-                { opacity: 0 },
-                { duration: props.bannerTime, opacity: 0.9, backgroundColor: color }
-            )
-
-            gsap.fromTo(".banner_content",
-                { yPercent: 200 },
-                { duration: props.bannerTime, ease: "back.inOut(1)", opacity: 1, yPercent: 0, }
-            )
-        })
+        gsap.fromTo(".banner_content",
+            { yPercent: 200 },
+            { duration: props.bannerTime, ease: "back.inOut(1)", opacity: 1, yPercent: 0, }
+        )
     })
 
     return (

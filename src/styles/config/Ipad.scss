@@ -157,7 +157,8 @@
         height: 15rem;
     }
 
-    .profile, .profile_hover {
+    .profile,
+    .profile_hover {
         top: -6.25rem;
         width: 12.5rem;
     }
@@ -206,6 +207,11 @@
             top: -2.56625rem;
             width: 25.158125rem;
             height: 29.533125rem;
+            border-radius: 0 0 0 5rem;
+        }
+
+        .contact_maps {
+            border-radius: 0 0 0 5rem !important;
         }
     }
 
