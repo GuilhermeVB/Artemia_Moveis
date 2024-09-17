@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './hovers.scss';
 @import './shared.scss';
 
 @import '@/animations/Animations.module.scss';
@@ -25,7 +26,9 @@
 @import './config/LaptopLarge.scss';
 @import './config/Mobile.scss';
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     box-sizing: border-box;

@@ -9,7 +9,7 @@ import PortfolioDialog from "@/components/carousel/PortfolioDialog";
 
 export default function Portfolio() {
     return (
-        <section className="portfolio_container">
+        <section className="portfolio_container" id="portfolio">
             <div className="portfolio_writing">
                 <p className="portfolio_writing_paragraph">Inspiração e Excelência em Cada Detalhe</p>
                 <h2 className="portfolio_writing_heading">Nossos Melhores projetos</h2>

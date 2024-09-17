@@ -52,6 +52,10 @@
         height: 18.25rem;
     }
 
+    .card_hover {
+        opacity: 0 !important;
+    }
+
     /* ABOUT US */
 
     /* --- Goals--- */
@@ -229,7 +233,7 @@
     /* --- Button --- */
 
     .button {
-        width: 11.25rem;
         font-size: 12px;
+        width: 11.25rem;
     }
 }

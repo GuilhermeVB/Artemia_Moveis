@@ -7,6 +7,7 @@ import banner from '/public/assets/banner/banner.png';
 import logo from '/public/assets/banner/banner_logo.png';
 
 import Button from '@/components/button/Button';
+import Link from 'next/link';
 
 interface AnimationsConfig {
     bannerTime: number
@@ -45,14 +46,18 @@ export default function Banner(props: AnimationsConfig) {
                 />
                 <p className='banner_content_text'>Móveis planejados de qualidade em Feira de Santana</p>
                 <div className='banner_content_action'>
-                    <Button
-                        class='main_button'
-                        text='Faça seu Orçamento!'
-                    />
-                    <Button
-                        class='alternative_button'
-                        text='Sobre Nós'
-                    />
+                    <Link className='main_border' href="#contact">
+                        <Button
+                            class='main_button'
+                            text='Faça seu Orçamento!'
+                        />
+                    </Link>
+                    <Link className='alternative_border' href="#aboutus">
+                        <Button
+                            class='alternative_button'
+                            text='Sobre Nós'
+                        />
+                    </Link>
                 </div>
             </div>
         </section>

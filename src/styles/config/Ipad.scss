@@ -49,6 +49,10 @@
         height: 18.25rem;
     }
 
+    .card_hover {
+        opacity: 0 !important;
+    }
+
     /* ABOUT */
 
     /* --- Goals --- */
@@ -196,7 +200,7 @@
             }
 
             button {
-                font-size: 7.47px;
+                font-size: 7.47px !important;
                 width: 6.5rem;
                 height: 1.333125rem;
                 border-radius: 0 .6rem 0 .6rem;
@@ -258,7 +262,7 @@
     /* --- Button --- */
 
     .button {
-        font-size: 12px;
+        font-size: 12px !important;
         width: 11.0625rem;
     }
 }

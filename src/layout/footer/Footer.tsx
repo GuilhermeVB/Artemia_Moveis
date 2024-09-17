@@ -42,31 +42,31 @@ export default function Footer() {
                 <aside className="pre_footer_right">
                     <nav className="pre_footer_right_fastnavigation">
                         <h3>Navegação Rápida</h3>
-                        <Link href="#">
+                        <Link href="#portfolio" replace>
                             Portfólio
                         </Link>
-                        <Link href="#">
+                        <Link href="#aboutus" replace>
                             Sobre Nós
                         </Link>
-                        <Link href="#">
+                        <Link href="#feedback" replace>
                             Feedback
                         </Link>
-                        <Link href="#">
+                        <Link href="#contact" replace>
                             Contato
                         </Link>
                     </nav>
                     <nav className="pre_footer_right_contact">
                         <h3>Contato</h3>
-                        <Link href="#">
+                        <Link href="https://api.whatsapp.com/send/?phone=7598364145&text=d" target="_blank">
                             +075-9-98364145
                         </Link>
-                        <Link href="#">
+                        <Link href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQHbpdDHztNckMvFnnsTcGPqBTWpcbjQRkvPpbKKSqDjjcRGbgPJQxdhPJfScBjmcGDkq" target="_blank">
                             artemiamoveis@gmail.com
                         </Link>
                     </nav>
                     <nav className="pre_footer_right_adress">
                         <h3>Endereço</h3>
-                        <Link href="#">
+                        <Link href="#contact">
                             Loteamento Veredas - Quadra J, 41 - Sim, Feira de Santana - BA, 44086-690
                         </Link>
                     </nav>

@@ -3,6 +3,7 @@
     font-weight: 500;
     width: 12.5rem;
     height: 2.5rem;
+    transition: .7s;
 }
 
 .main_button {
@@ -11,10 +12,18 @@
     color: $primary_color;
 }
 
+.main_border {
+    border-radius: 0 1.3rem 0 1.3rem;
+}
+
 .alternative_button {
     border: solid 1px $light_color;
     border-radius: 1.3rem 0 1.3rem 0;
     color: $secondary_color;
+}
+
+.alternative_border {
+    border-radius: 1.3rem 0 1.3rem 0;
 }
 
 .max_width {
