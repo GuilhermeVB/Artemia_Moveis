@@ -1,4 +1,5 @@
 .goal {
+    opacity: 0.8;
     background-color: $primary_color;
     display: flex;
     flex-direction: column;
@@ -11,6 +12,7 @@
     padding: 0 2.5rem;
     border-radius: 15px;
     cursor: default;
+    transition: .7s;
 }
 
 .goal_heading {

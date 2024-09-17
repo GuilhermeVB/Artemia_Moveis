@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import goalsBackground from '/public/assets/aboutus/goals_background.png';
 import motivationalSpeechFigure from '/public/assets/aboutus/motivational_speech_figure.png';
@@ -15,7 +16,7 @@ import Goal from "@/components/goal/Goal";
 
 export default function AboutUs() {
     return (
-        <section>
+        <section id='aboutus'>
             <div className='container_animation_goals'>
                 <article className="goals" style={{ backgroundImage: `url('${goalsBackground.src}')` }}>
                     <Goal
@@ -70,10 +71,12 @@ export default function AboutUs() {
                             em um verdadeiro lar.
                         </p>
                     </div>
-                    <Button
-                        class='main_button'
-                        text='Faça seu Orçamento!'
-                    />
+                    <Link className='main_border' href="#contact" style={{width: 'max-content'}}>
+                        <Button
+                            class='main_button'
+                            text='Faça seu Orçamento!'
+                        />
+                    </Link>
                 </article>
                 <figure className='motivational_speech_figure'>
                     <figure className='motivational_speech_figure_desktop' style={{ backgroundImage: `url('${motivationalSpeechFigure.src}')` }} />

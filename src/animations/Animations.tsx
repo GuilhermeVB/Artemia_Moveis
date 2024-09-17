@@ -164,6 +164,8 @@ export default function Animations() {
             { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
         )
 
+        /* CONTACT */
+
         const contactScroller = gsap.timeline({
             scrollTrigger: {
                 trigger: ".contact_container",
@@ -177,6 +179,13 @@ export default function Animations() {
             { yPercent: 50 },
             { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
         )
+
+        mm.add("(max-width: 999px)", () => {
+            contactScroller.to(".contact_maps",
+                {opacity: 1, duration: 1.5 },
+                "-=0.7"
+            )
+        })
     })
 
     return <></>

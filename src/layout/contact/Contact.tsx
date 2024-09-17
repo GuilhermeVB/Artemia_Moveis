@@ -1,23 +1,10 @@
-'use client'
-
-import { useState } from "react";
-
 import Button from "@/components/button/Button";
 
 export default function Contact() {
-    const [mouseStatus, setMouseStatus] = useState<boolean>(false)
-
-    function mouseOn() {
-        setMouseStatus(true)
-    }
-
-    function mouseOff() {
-        setMouseStatus(false)
-    }
 
 
     return (
-        <section className="contact_container">
+        <section className="contact_container" id="contact">
             <article className="contact_content">
                 <h3 className='contact_content_company'>Artêmia Móveis</h3>
                 <h1 className="contact_content_heading">Venha Falar Conosco</h1>
@@ -31,8 +18,6 @@ export default function Contact() {
                 />
             </article>
             <figure
-                onMouseEnter={mouseOn}
-                onMouseLeave={mouseOff}
                 className='contact_figure'
             >
                 <iframe
@@ -40,11 +25,6 @@ export default function Contact() {
                     className="contact_maps"
                     width="100%"
                     height="100%"
-                    style={{
-                        border: 0, borderRadius: '0 0 0 9.4rem',
-                        opacity: `${mouseStatus ? `1` : '0'}`,
-                        transition: `${mouseStatus ? '.5s' : '.5s'}`
-                    }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"

@@ -6,7 +6,7 @@ import FeedbackBox from "@/components/feedbackbox/FeedbackBox";
 
 export default function Feedback() {
     return (
-        <div className='container_animation_feedback'>
+        <div className="container_animation_feedback" id="feedback">
             <section className="feedback_container">
                 <div className="feedback_heading">
                     <h2>Veja o que nossos clientes dizem</h2>
