@@ -150,19 +150,38 @@ export default function Animations() {
 
         /* FEEDBACK */
 
-        const feedbackScroller = gsap.timeline({
-            scrollTrigger: {
-                trigger: ".container_animation_feedback",
-                start: "40% 80%",
-                end: "40% 80%",
-                toggleActions: "restart none reverse none"
-            }
+        mm.add("(min-width: 1000px)", () => {
+            const feedbackScroller = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".container_animation_feedback",
+                    start: "40% 80%",
+                    end: "40% 80%",
+                    toggleActions: "restart none reverse none"
+                }
+            })
+
+            feedbackScroller.fromTo(".feedback_container",
+                { yPercent: 50 },
+                { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
+            )
         })
 
-        feedbackScroller.fromTo(".feedback_container",
-            { yPercent: 50 },
-            { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
-        )
+        mm.add("(max-width: 999px)", () => {
+            const feedbackScroller = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".container_animation_feedback",
+                    start: "20% 80%",
+                    end: "20% 80%",
+                    toggleActions: "restart none reverse none"
+                }
+            })
+
+            feedbackScroller.fromTo(".feedback_container",
+                { yPercent: 50 },
+                { ease: "back.out(1)", opacity: 1, yPercent: 0, duration: .7 }
+            )
+        })
+
 
         /* CONTACT */
 
@@ -181,8 +200,9 @@ export default function Animations() {
         )
 
         mm.add("(max-width: 999px)", () => {
-            contactScroller.to(".contact_maps",
-                {opacity: 1, duration: 1.5 },
+            contactScroller.fromTo(".contact_maps",
+                { opacity: 0 },
+                { opacity: 1, duration: 1 },
                 "-=0.7"
             )
         })
