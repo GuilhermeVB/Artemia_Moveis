@@ -1,7 +1,8 @@
 import Button from "@/components/button/Button";
 
-export default function Contact() {
+import Link from "next/link";
 
+export default function Contact() {
 
     return (
         <section className="contact_container" id="contact">
@@ -12,10 +13,12 @@ export default function Contact() {
                     Quer saber mais sobre nossos serviços? Clique no botão abaixo e receba um orçamento
                     personalizado de forma rápida e fácil. Estamos prontos para ajudar!
                 </p>
-                <Button
-                    class='main_button'
-                    text='Faça seu Orçamento!'
-                />
+                <Link className='main_border' href="https://api.whatsapp.com/send/?phone=7598364145&text=" style={{width: 'max-content'}}>
+                    <Button
+                        class='main_button'
+                        text='Faça seu Orçamento!'
+                    />
+                </Link>
             </article>
             <figure
                 className='contact_figure'
