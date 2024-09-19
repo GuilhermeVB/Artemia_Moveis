@@ -20,7 +20,7 @@ export default function PortfolioDialog(props: DialogSource) {
       <DialogTrigger className={`round-[10px] dialog_animation_${props.order}`}>
         <Card card={props.source} />
       </DialogTrigger>
-      <DialogContent className="bg-transparent border-0 p-0 max-w-[28.125rem] round-[10px]">
+      <DialogContent className="dialog_content bg-transparent border-0 p-0 max-w-[28.125rem] round-[10px]">
         <DialogTitle className="hidden" />
         <PortfolioCarousel source={props.source} />
         <DialogDescription className="hidden" />

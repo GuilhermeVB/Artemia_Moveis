@@ -57,7 +57,7 @@ export default function Footer() {
                     </nav>
                     <nav className="pre_footer_right_contact">
                         <h3>Contato</h3>
-                        <Link href="https://api.whatsapp.com/send/?phone=7598364145&text=d" target="_blank" style={{width: 'max-content'}}>
+                        <Link href="https://api.whatsapp.com/send/?phone=7598364145&text=" target="_blank" style={{width: 'max-content'}}>
                             +075-9-98364145
                         </Link>
                         <Link href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQHbpdDHztNckMvFnnsTcGPqBTWpcbjQRkvPpbKKSqDjjcRGbgPJQxdhPJfScBjmcGDkq" target="_blank" style={{width: 'max-content'}}>

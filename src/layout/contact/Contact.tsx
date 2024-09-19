@@ -13,7 +13,7 @@ export default function Contact() {
                     Quer saber mais sobre nossos serviços? Clique no botão abaixo e receba um orçamento
                     personalizado de forma rápida e fácil. Estamos prontos para ajudar!
                 </p>
-                <Link className='main_border' href="https://api.whatsapp.com/send/?phone=7598364145&text=" style={{width: 'max-content'}}>
+                <Link className='main_border' href="https://api.whatsapp.com/send/?phone=7598364145&text=" target="_blank" style={{width: 'max-content'}}>
                     <Button
                         class='main_button'
                         text='Faça seu Orçamento!'
