@@ -1,6 +1,6 @@
 "use client";
 
-import Card from "../../card/Card"
+import Card from "../card/Card"
 
 import { useEffect, useState } from "react"
 import {
@@ -34,8 +34,8 @@ export default function PortfolioCarousel(props: PortfolioSources) {
     function sortItems(shift: any) {
         let carouselItems: JSX.Element[] = []
 
-        shift.map((element: any, index: number) => (
-            carouselItems.push(<Card card={element} fitCarrousel cardHover key={index} />)
+        shift.map((element: any) => (
+            carouselItems.push(<Card card={element} fitCarrousel cardHover />)
         ))
         
         setCardImages(carouselItems)
@@ -50,8 +50,8 @@ export default function PortfolioCarousel(props: PortfolioSources) {
             className="w-[full]"
         >
             <CarouselContent>
-                {cardImages.map((value: any) => (
-                    <CarouselItem key={value.key} className="md:basis-1/1 lg:basis-1/1">
+                {cardImages.map((value: any, index: number) => (
+                    <CarouselItem key={`carousel-item-${index}`} className="md:basis-1/1 lg:basis-1/1">
                         <div>
                             {value}
                         </div>

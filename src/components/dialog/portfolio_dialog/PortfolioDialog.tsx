@@ -1,5 +1,5 @@
 import Card from "../../card/Card"
-import PortfolioCarousel from "./PortfolioCarousel"
+import Carousel from "../../carousel/Carousel"
 
 import {
   Dialog,
@@ -23,7 +23,7 @@ export default function PortfolioDialog(props: DialogSource) {
       </DialogTrigger>
       <DialogContent className="dialog_content bg-transparent border-0 p-0 max-w-[28.125rem] round-[10px]">
         <DialogTitle className="hidden" />
-        <PortfolioCarousel cardSelected={props.cardTriggerIndex} source={props.source} />
+        <Carousel cardSelected={props.cardTriggerIndex} source={props.source} />
         <DialogDescription className="hidden" />
       </DialogContent>
     </Dialog>

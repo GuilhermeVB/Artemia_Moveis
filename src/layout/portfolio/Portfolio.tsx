@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import PortfolioDialog from "@/components/carousel/portfolio_carousel/PortfolioDialog";
+import PortfolioDialog from "@/components/dialog/portfolio_dialog/PortfolioDialog";
 
 interface CardArray {
     cardImages: any
@@ -35,12 +35,12 @@ export default function Portfolio(props: CardArray) {
             <div className="portfolio_projects">
                 <div className="portfolio_projects_cards">
                     {cardPosition.slice(0, Math.ceil(cardPosition.length / 2)).map((pos: number, index: number) => {
-                        return <PortfolioDialog key={cardPosition[pos]} cardTriggerIndex={cardPosition[pos] ?? 0} source={props.cardImages} orderAnimation={index + 1} />
+                        return <PortfolioDialog key={`first-half-${pos}-${index}`} cardTriggerIndex={cardPosition[pos] ?? 0} source={props.cardImages} orderAnimation={index + 1} />
                     })}
                 </div>
                 <div className="portfolio_projects_cards">
                     {cardPosition.slice(Math.ceil(cardPosition.length / 2)).map((pos: number, index: number) => {
-                        return <PortfolioDialog key={cardPosition[pos]} cardTriggerIndex={cardPosition[pos] ?? 0} source={props.cardImages} orderAnimation={index + 1} />
+                        return <PortfolioDialog key={`second-half-${pos}-${index}`}  cardTriggerIndex={cardPosition[pos] ?? 0} source={props.cardImages} orderAnimation={index + 1} />
                     })}
                 </div>
             </div>
