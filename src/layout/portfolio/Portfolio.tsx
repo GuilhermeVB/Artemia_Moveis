@@ -1,13 +1,31 @@
-import cardImage1 from "/public/assets/portfolio/card_1.png";
-import cardImage2 from "/public/assets/portfolio/card_2.png";
-import cardImage3 from "/public/assets/portfolio/card_3.png";
-import cardImage4 from "/public/assets/portfolio/card_4.png";
-import cardImage5 from "/public/assets/portfolio/card_6.png";
-import cardImage6 from "/public/assets/portfolio/card_5.png";
+'use client'
 
-import PortfolioDialog from "@/components/carousel/PortfolioDialog";
+import { useEffect, useState } from "react";
 
-export default function Portfolio() {
+import PortfolioDialog from "@/components/dialog/portfolio_dialog/PortfolioDialog";
+
+interface CardArray {
+    cardImages: any
+}
+
+export default function Portfolio(props: CardArray) {
+
+    const [cardPosition, setCardPosition] = useState<number[]>([])
+
+    useEffect(() => {
+        defineKeyPositions()
+    }, [props.cardImages])
+
+    function defineKeyPositions() {
+        let vetorCard: number[] = []
+
+        props.cardImages.forEach((e: any, index: number) => {
+            vetorCard.push(index)
+        })
+
+        setCardPosition(vetorCard)
+    }
+
     return (
         <section className="portfolio_container" id="portfolio">
             <div className="portfolio_writing">
@@ -16,14 +34,14 @@ export default function Portfolio() {
             </div>
             <div className="portfolio_projects">
                 <div className="portfolio_projects_cards">
-                    <PortfolioDialog source={cardImage1} order={1} />
-                    <PortfolioDialog source={cardImage2} order={2} />
-                    <PortfolioDialog source={cardImage3} order={3} />
+                    {cardPosition.slice(0, Math.ceil(cardPosition.length / 2)).map((pos: number, index: number) => {
+                        return <PortfolioDialog key={`first-half-${pos}-${index}`} cardTriggerIndex={cardPosition[pos] ?? 0} source={props.cardImages} orderAnimation={index + 1} />
+                    })}
                 </div>
                 <div className="portfolio_projects_cards">
-                    <PortfolioDialog source={cardImage4} order={1} />
-                    <PortfolioDialog source={cardImage5} order={2} />
-                    <PortfolioDialog source={cardImage6} order={3} />
+                    {cardPosition.slice(Math.ceil(cardPosition.length / 2)).map((pos: number, index: number) => {
+                        return <PortfolioDialog key={`second-half-${pos}-${index}`}  cardTriggerIndex={cardPosition[pos] ?? 0} source={props.cardImages} orderAnimation={index + 1} />
+                    })}
                 </div>
             </div>
         </section>

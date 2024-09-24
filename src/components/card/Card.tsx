@@ -31,7 +31,7 @@ export default function Card(props: CardImage) {
         >
             <Image
                 className="card_source"
-                src={props.card}
+                src={props.fitCarrousel ? props.card : props.card}
                 alt="Imagem de Demonstração de Projeto"
                 style={{ width: '100%' }}
             />
