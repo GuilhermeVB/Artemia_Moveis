@@ -1,6 +1,6 @@
 "use client";
 
-import Card from "../card/Card"
+import Card from "../../card/Card"
 
 import { useEffect, useState } from "react"
 import {
@@ -15,7 +15,7 @@ interface PortfolioSources {
     source: any
 }
 
-export default function PortfolioCarousel(props: PortfolioSources) {
+export default function FeedbackCarousel(props: PortfolioSources) {
 
     const [cardImages, setCardImages] = useState<any>([])
 
